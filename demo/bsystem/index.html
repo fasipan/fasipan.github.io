@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bsystem | Home Ver2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/images/btc_fav.png" />  
+
+    <!-- FONT CSS-->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700,900">
+    <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- LIBRARY CSS-->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/slick.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/slick-theme.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/animate.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery-jvectormap.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.selectbox.css">
+    <!-- STYLE CSS-->
+    <link type="text/css" rel="stylesheet" href="assets/css/layout.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/components.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox-buttons.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox-thumbs.css">
+</head>
+
+<body>
+    <div class="body-wrapper-content">
+        <div class="sidenav-overlay"></div>
+        <!-- HEADER-->
+        <header>
+            <div class="bg-header-wrapper bg-white">
+                <div class="header-topbar">
+                    <div class="container">
+                        <ul class="topbar pull-left list-unstyled list-inline">
+                            <li>
+                                <a href="javascript:void(0)" class="item">
+                                    <i class="topbar-left-icon fa fa-envelope-o">
+                                    </i>
+                                    <span>hello@swlabs.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="item">
+                                    <i class="topbar-left-icon fa fa-phone"></i>
+                                    <span>(+1) 369-258-147</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="btn-wrapper pull-right">
+                            <a href="javascript:void(0)" class="button btn-main">Register</a>
+                        </div>
+                        <ul class="topbar pull-right list-unstyled list-inline">
+                            <li>
+                                <a href="javascript:void(0)" class="item topbar-icon">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="item topbar-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="item topbar-icon">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="item topbar-icon">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="item topbar-icon">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-main">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" data-toggle="offcanvas" class="btn-hamburger visible-tablet"><span class="icon-bar"></span></button>
+                            <a href="index.html" class="header-logo"><img src="assets/images/logo-eb.png" alt="Main Logo" class="logo"></a>
+                        </div>
+                        <nav class="navigation navbar-offcanvas pull-right">
+                            <div class="nav-wrapper">
+                                <ul class="nav-links nav navbar-nav">
+                                    <li>
+                                        <a href="index.html" class="main-menu">
+                                            <span class="text">Home</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="abouts.html" class="main-menu">
+                                            <span class="text">Abouts Us</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog.html" class="main-menu">
+                                            <span class="text">Blog</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="training.html" class="main-menu">
+                                            <span class="text">Training</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html" class="main-menu">
+                                            <span class="text">FAQ</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html" class="main-menu">
+                                            <span class="text">Login</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="register.html" class="main-menu">
+                                            <span class="text">Register</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html" class="main-menu">
+                                            <span class="text">Contact</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="javascript:void(0)" class="search-btn">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <div class="nav-search hide">
+                                    <form>
+                                        <input type="text" placeholder="Search" class="searchbox">
+                                        <button type="submit" class="search-btn fa fa-search"></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- WRAPPER-->
+        <div id="wrapper-content">
+            <!-- PAGE WRAPPER-->
+            <div id="page-wrapper">
+                <!-- MAIN CONTENT-->
+                <div class="main-content">
+                    <!-- CONTENT-->
+                    <div class="content">
+                        <section class="homepage-02">
+                            <div class="page-banner banner-02">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="content-wrapper">
+                                                <h4 class="subtitle">THE BEST WEBSOLUTION<span class="brand">GOAHEAD</span></h4>
+                                                <h1 class="title">CREATIVITY FOR YOUR BUSINESS</h1>
+                                                <p class="text">Better security happens when we work together. Get tips on further steps you can take to protect yourself online. Better security happens when we work together happens.</p><a href="javascript:void(0)" class="button btn-main">READ MORE</a><a href="javascript:void(0)" role="button" class="button btn-alt">PURCHASE NOW</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page-banner banner-03 darken-overlay">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="content-wrapper">
+                                                <h4 class="subtitle">BUILD WEBSITE WITH<span class="brand">GOAHEAD</span></h4>
+                                                <h1 class="title">PERFECT SOLUTION FOR YOUR BUSINESS</h1>
+                                                <p class="text">Better security happens when we work together. Get tips on further steps you can take to protect yourself online. Better security happens when we work together happens.</p><a href="javascript:void(0)" class="button btn-main">READ MORE</a><a href="javascript:void(0)" role="button" class="button btn-light">PURCHASE NOW</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page-banner banner-01 darken-overlay">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="content-wrapper">
+                                                <h4 class="subtitle">BUILD WEBSITE WITH<span class="brand">GOAHEAD</span></h4>
+                                                <h1 class="title">PERFECT SOLUTION FOR YOUR BUSINESS</h1>
+                                                <p class="text">Better security happens when we work together. Get tips on further steps you can take to protect yourself online. Better security happens when we work together happens.</p><a href="javascript:void(0)" class="button btn-main">READ MORE</a><a href="javascript:void(0)" role="button" class="button btn-light">PURCHASE NOW</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="service-02 padding-top padding-bottom">
+                            <div class="container">
+                                <div class="title-wrapper title-wrapper-main">
+                                    <h1 class="subtitle">SERVICE</h1>
+                                    <h2 class="title">WHAT WE DO?</h2></div>
+                                <div class="row">
+                                    <div data-wow-delay="0.2s" data-wow-duration="1s" class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                        <div class="service-02-intro"><i class="icon flaticon-piggy-bank"></i><a href="service.html" class="title"><span class="no">01</span>INVESTMENT PLANING</a>
+                                            <p class="text">Enim ad minim veniam, quis nostrud exercitation ullamco laboris. Enim ad minim veniam, quis nostrud exercitation ullamco laboris nim ad minim veniam.</p>
+                                        </div>
+                                    </div>
+                                    <div data-wow-delay="0.5s" data-wow-duration="1s" class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                        <div class="service-02-intro"><i class="icon flaticon-lifebuoy"></i><a href="service.html" class="title"><span class="no">02</span>INVESTMENT PLANING</a>
+                                            <p class="text">Enim ad minim veniam, quis nostrud exercitation ullamco laboris. Enim ad minim veniam, quis nostrud exercitation ullamco laboris nim ad minim veniam.</p>
+                                        </div>
+                                    </div>
+                                    <div data-wow-delay="0.8s" data-wow-duration="1s" class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                        <div class="service-02-intro"><i class="icon flaticon-calculator"></i><a href="service.html" class="title"><span class="no">03</span>COMMODITIES TRADING</a>
+                                            <p class="text">Enim ad minim veniam, quis nostrud exercitation ullamco laboris. Enim ad minim veniam, quis nostrud exercitation ullamco laboris nim ad minim veniam.</p>
+                                        </div>
+                                    </div>
+                                    <div data-wow-delay="1.1s" data-wow-duration="1s" class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                        <div class="service-02-intro"><i class="icon flaticon-tasks"></i><a href="service.html" class="title"><span class="no">04</span>TAX PLANING TRADING</a>
+                                            <p class="text">Enim ad minim veniam, quis nostrud exercitation ullamco laboris. Enim ad minim veniam, quis nostrud exercitation ullamco laboris nim ad minim veniam.</p>
+                                        </div>
+                                    </div>
+                                    <div data-wow-delay="1.4s" data-wow-duration="1s" class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                        <div class="service-02-intro"><i class="icon flaticon-diagram"></i><a href="service.html" class="title"><span class="no">05</span>MUTUAL FUNDS</a>
+                                            <p class="text">Enim ad minim veniam, quis nostrud exercitation ullamco laboris. Enim ad minim veniam, quis nostrud exercitation ullamco laboris nim ad minim veniam.</p>
+                                        </div>
+                                    </div>
+                                    <div data-wow-delay="1.7s" data-wow-duration="1s" class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                        <div class="service-02-intro"><i class="icon flaticon-dollar-coins"></i><a href="service.html" class="title"><span class="no">06</span>WEALTH MANAGEMENT</a>
+                                            <p class="text">Enim ad minim veniam, quis nostrud exercitation ullamco laboris. Enim ad minim veniam, quis nostrud exercitation ullamco laboris nim ad minim veniam.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="who-alt who-alt-banner">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="who-content col-lg-7 pull-right padding-top padding-bottom">
+                                        <div class="title-wrapper title-wrapper-alt">
+                                            <h1 class="subtitle">WHO</h1>
+                                            <h2 class="title">WHO WE ARE?</h2></div>
+                                        <p class="text">Pellentesque sed ultricies ante. Vestibulum vitae enim tlum, luctus sapien ac, tempor libero. Pellentesque sed peltesque nisi habitant morbi tristique.</p>
+                                        <p class="text">Fusce lectus odio, molestie non vehicula id, molestie non mi. Etiam id ultricies ligula. Phasellus molestie eget metus nec tempor. Ut vitae lobortis felis. Pellentesque habitant morbi tristique senectus. Pellentesque sed ultries ante. Vestibulum vitae enim tlum, luctus sapien ac, tempor libero etiam id ultricies ligula hasellus molestie eget metus nec tempor.</p><a href="javascript:void(0)" class="button btn-dark">READ MORE</a><a href="javascript:void(0)" role="button" class="button btn-light">PURCHASE NOW</a></div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="market padding-top padding-bottom">
+                            <div class="container">
+                                <div class="title-wrapper title-wrapper-main">
+                                    <h1 class="subtitle">CHART</h1>
+                                    <h2 class="title">TODAY'S MARKET</h2></div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h4 class="title">AMERICA</h4>
+                                        <p class="text">Consectetur adipisicing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                        <div id="stock-info-1" class="stock-info"><span class="name"></span><span class="price"></span><span class="change"></span><span class="date"></span></div>
+                                        <div class="chart-tiny">
+                                            <canvas id="chart-tiny-01"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h4 class="title">EUROPE</h4>
+                                        <p class="text">Consectetur adipisicing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                        <div id="stock-info-2" class="stock-info"><span class="name"></span><span class="price"></span><span class="change"></span><span class="date"></span></div>
+                                        <div class="chart-tiny">
+                                            <canvas id="chart-tiny-02"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h4 class="title">ASIA PACIFIC</h4>
+                                        <p class="text">Consectetur adipisicing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                        <div id="stock-info-3" class="stock-info"><span class="name"></span><span class="price"></span><span class="change"></span><span class="date"></span></div>
+                                        <div class="chart-tiny">
+                                            <canvas id="chart-tiny-03"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="stats-02 stats-02-banner padding-top padding-bottom">
+                            <div class="container"><img src="assets/images/stats-man.png" alt="stats man" class="stats-man img-responsive">
+                                <div class="row">
+                                    <div class="col-lg-10 pull-right">
+                                        <div class="title"><span class="brand">GOAHEAD</span> BY THE NUMBERS</div>
+                                        <div class="all-stats-wrapper">
+                                            <div class="stat"><i class="stat-icon fa fa-commenting-o"></i>
+                                                <div data-value="2987" class="count">2987</div>
+                                                <div class="stat-label">Individual Investors</div>
+                                            </div>
+                                            <div class="stat"><i class="stat-icon fa fa-pencil-square-o"></i>
+                                                <div data-value="2280" class="count">2280</div>
+                                                <div class="stat-label">Brokerage Accounts</div>
+                                            </div>
+                                            <div class="stat"><i class="stat-icon fa fa-clone"></i>
+                                                <div data-value="4764" class="count">4764</div>
+                                                <div class="stat-label">Commissionable Trades</div>
+                                            </div>
+                                            <div class="stat"><i class="stat-icon fa fa-file-text-o"></i>
+                                                <div data-value="5100" class="count">5100</div>
+                                                <div class="stat-label">Customer Assets</div>
+                                            </div>
+                                            <div class="stretch">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="testimonial padding-top padding-bottom">
+                            <div class="container">
+                                <div class="title-wrapper title-wrapper-main">
+                                    <h1 class="subtitle">SAYINGS</h1>
+                                    <h2 class="title">TESTIMONIAL</h2></div>
+                                <div class="testimonial-slider">
+                                    <div class="single-testimonial">
+                                        <div class="content">
+                                            <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
+                                                <blockquote class="quote">
+                                                    <p>It is a long established fact that a reader will be distracted by the readable con tent of a page nomao when loing at its layout. The point of using Ipsum is that it has a more-or-less normal distribution of letters readable content of a page.</p>
+                                                </blockquote>
+                                            </div><span class="name">Howard K. Stern</span><span class="company">WallStreet Company</span></div><img src="assets/images/testimonial-1.jpg" alt="" class="testimonial-man"></div>
+                                    <div class="single-testimonial">
+                                        <div class="content">
+                                            <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
+                                                <blockquote class="quote">
+                                                    <p>The cycle for adding new features, including any refactoring, is roughly this: write failing test; code; get to green; make it right. If you’re doing it right, you’re executing a lot of unit tests along the way, sometimes a focused set and sometimes the entire suite.</p>
+                                                </blockquote>
+                                            </div><span class="name">David Doe</span><span class="company">Apollo Company</span></div><img src="assets/images/testimonial-2.jpg" alt="" class="testimonial-man"></div>
+                                    <div class="single-testimonial">
+                                        <div class="content">
+                                            <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
+                                                <blockquote class="quote">
+                                                    <p>While in ES5 ‘this’ referred to the parent of the function, in ES6, arrow functions use lexical scoping — ‘this’ refers to it’s current surrounding scope and no further. Thus the inner, and not to the object’s method or the object itself.</p>
+                                                </blockquote>
+                                            </div><span class="name">Susan Solomon</span><span class="company">Aurora Company</span></div><img src="assets/images/testimonial-3.jpg" alt="" class="testimonial-man"></div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="padding-bottom portfolio-alt">
+                            <div class="container">
+                                <div class="title-wrapper title-wrapper-main">
+                                    <h1 class="subtitle">WORK</h1>
+                                    <h2 class="title">OUR PROJECT</h2></div>
+                            </div>
+                            <div class="tab-menu">
+                                <div class="container">
+                                    <ul class="nav nav-tabs">
+                                        <li class="port-item active"><a href="javascript:void(0)" data-toggle="tab" data-filter="*" class="default">ALL</a></li>
+                                        <li class="port-item"><a href="javascript:void(0)" data-toggle="tab" data-filter=".branding">BRANDING</a></li>
+                                        <li class="port-item"><a href="javascript:void(0)" data-toggle="tab" data-filter=".studio">STUDIO</a></li>
+                                        <li class="port-item"><a href="javascript:void(0)" data-toggle="tab" data-filter=".website">WEBSITE</a></li>
+                                        <li class="port-item"><a href="javascript:void(0)" data-toggle="tab" data-filter=".illustration">ILLUSTRATION</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab-content">
+                                <div class="grid">
+                                    <div class="grid-sizer"></div>
+                                    <div data-size="4" class="grid-item grid-item--width2 branding illustration">
+                                        <a href="assets/img/homepage/portfolio-1.jpg" data-fancybox-group="gallery" class="fancybox"><img src="assets/images/portfolio-1.jpg" alt="cosmetic" class="img-responsive"><span class="dh-overlay"></span></a>
+                                    </div>
+                                    <div data-size="1" class="grid-item studio website">
+                                        <a href="assets/img/homepage/portfolio-2.jpg" data-fancybox-group="gallery" class="fancybox"><img src="assets/images/portfolio-2.jpg" alt="cup" class="img-responsive"><span class="dh-overlay"></span></a>
+                                    </div>
+                                    <div data-size="1" class="grid-item website illustration branding studio">
+                                        <a href="assets/img/homepage/portfolio-3.jpg" data-fancybox-group="gallery" class="fancybox"><img src="assets/images/portfolio-3.jpg" alt="wrapper" class="img-responsive"><span class="dh-overlay"></span></a>
+                                    </div>
+                                    <div data-size="3" class="grid-item branding studio">
+                                        <a href="assets/img/homepage/portfolio-4.jpg" data-fancybox-group="gallery" class="fancybox"><img src="assets/images/portfolio-4.jpg" alt="bag" class="img-responsive"><span class="dh-overlay"></span></a>
+                                    </div>
+                                    <div data-size="2" class="grid-item grid-item--width2 illustration studio">
+                                        <a href="assets/img/homepage/portfolio-5.jpg" data-fancybox-group="gallery" class="fancybox"><img src="assets/images/portfolio-5.jpg" alt="container" class="img-responsive"><span class="dh-overlay"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more">
+                                <div class="container">
+                                    <h5>Like what you see?<a href="javascript:void(0)" class="checkme"> Check more of our project<i class="fa fa-long-arrow-right"></i></a></h5></div>
+                            </div>
+                        </section>
+                        <section class="team padding-bottom">
+                            <div class="container">
+                                <div class="title-wrapper title-wrapper-main">
+                                    <h1 class="subtitle">MEET</h1>
+                                    <h2 class="title">OUR TEAM</h2></div>
+                                <div class="row">
+                                    <div class="team-slider">
+                                        <div class="col-md-4 member"><img src="assets/images/team-2.png" alt="" class="img-responsive member-picture">
+                                            <div class="member-label"><span class="name">CRISTIAN SMITH</span><span class="position">CEO - Founder</span></div>
+                                        </div>
+                                        <div class="col-md-4 member"><img src="assets/images/team-3.png" alt="" class="img-responsive member-picture">
+                                            <div class="member-label"><span class="name">ADAM JOHNSON</span><span class="position">CTO</span></div>
+                                        </div>
+                                        <div class="col-md-4 member"><img src="assets/images/team-1.png" alt="" class="img-responsive member-picture">
+                                            <div class="member-label"><span class="name">ALEX WILSON</span><span class="position">Project Manager</span></div>
+                                        </div>
+                                        <div class="col-md-4 member"><img src="assets/images/team-2.png" alt="" class="img-responsive member-picture">
+                                            <div class="member-label"><span class="name">CRISTIAN SMITH</span><span class="position">CEO - Founder</span></div>
+                                        </div>
+                                        <div class="col-md-4 member"><img src="assets/images/team-3.png" alt="" class="img-responsive member-picture">
+                                            <div class="member-label"><span class="name">ADAM JOHNSON</span><span class="position">CTO</span></div>
+                                        </div>
+                                        <div class="col-md-4 member"><img src="assets/images/team-1.png" alt="" class="img-responsive member-picture">
+                                            <div class="member-label"><span class="name">ALEX WILSON</span><span class="position">Project Manager</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="achievement achievement-banner">
+                            <div class="container">
+                                <div class="row banner">
+                                    <div class="col-sm-4 banner-left padding-top padding-bottom">
+                                        <div class="banner-main-left">
+                                            <h2 class="title">You deserve the best</h2>
+                                            <p class="text">We'll help you rollover your old retirement plan so you can enjoy our wide variety of investment options and roll your old one-on-one guidance retirement plan.</p><a href="javascript:void(0)" class="button btn-main">READ MORE</a></div>
+                                    </div>
+                                    <div class="col-sm-1 dummy-cell">&nbsp;</div>
+                                    <div class="col-sm-7 banner-right padding-top padding-bottom">
+                                        <div class="banner-main-right">
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-1.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-2.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-3.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-4.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-5.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-1.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-2.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-3.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-4.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo">
+                                                <a href="#" class="wrapper-img"><img src="assets/images/achievement-logo-dark-5.png" alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="news padding-top padding-bottom">
+                            <div class="container">
+                                <div class="title-wrapper title-wrapper-main">
+                                    <h1 class="subtitle">NEWS</h1>
+                                    <h2 class="title">FRESH NEWS</h2></div>
+                                <div class="row">
+                                    <div class="article">
+                                        <div class="col-md-6">
+                                            <a href="blog-detail.html" class="wp-img"><img src="assets/images/news-1.jpg" alt="" class="img-responsive"></a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="date"><span class="day">01</span><span class="sep">-</span><span class="month">July</span></div><a href="blog-detail.html" class="article-title">Many people limit themselves</a>
+                                            <div class="meta-info"><span class="author">Posted By: John Smith</span><span class="view"><i class="fa fa-user"></i>View: 56</span><span class="comment"><i class="fa fa-comment"></i>Comment: 239</span></div>
+                                            <div class="preview">
+                                                <p class="paragraph">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation.</p>
+                                                <p class="paragraph">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip consquat uis aute irure dolor ullamco laboris nisi in reprehenderit. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitsdsectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div><a href="javascript:void(0)" class="readmore">READ MORE<i class="fa fa-long-arrow-right"></i></a></div>
+                                    </div>
+                                    <div class="article">
+                                        <div class="col-md-6">
+                                            <a href="blog-detail.html" class="wp-img"><img src="assets/images/news-2.jpg" alt="" class="img-responsive"></a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="date"><span class="day">02</span><span class="sep">-</span><span class="month">July</span></div><a href="blog-detail.html" class="article-title">Many people limit themselves</a>
+                                            <div class="meta-info"><span class="author">Posted By: John Smith</span><span class="view"><i class="fa fa-user"></i>View: 56</span><span class="comment"><i class="fa fa-comment"></i>Comment: 239</span></div>
+                                            <div class="preview">
+                                                <p class="paragraph">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation.</p>
+                                                <p class="paragraph">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip consquat uis aute irure dolor ullamco laboris nisi in reprehenderit. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitsdsectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div><a href="javascript:void(0)" class="readmore">READ MORE<i class="fa fa-long-arrow-right"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="newsletter newsletter-banner">
+                            <div class="container">
+                                <div class="row banner">
+                                    <div class="col-sm-1 padding-top-small padding-bottom-small banner-left">
+                                        <div class="banner-main-left"><i class="fa fa-life-ring"></i></div>
+                                    </div>
+                                    <div class="col-sm-4 padding-top-small padding-bottom-small banner-middle">
+                                        <div class="banner-main-middle">
+                                            <h2 class="banner-middle-title">We're here to help you</h2>
+                                            <p class="text">No matter what financial questions you have, we're here to work with you on your terms.</p>
+                                            <div class="service"><i class="icon fa fa-comment-o"></i>
+                                                <p class="description">Chat with a representative</p>
+                                            </div>
+                                            <div class="service"><i class="fa fa-question-circle-o"></i>
+                                                <p class="description">Do you have any questions?<span class="tel">800-343-3548</span></p>
+                                            </div>
+                                            <div class="service"><i class="fa fa-registered"></i>
+                                                <p class="description">Find an Investor Center</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7 padding-top-small padding-bottom-small banner-right">
+                                        <div class="banner-main-right">
+                                            <h2 class="banner-right-title">Sign up for<span class="brand"> Bsystem</span> viewpoints!</h2>
+                                            <p class="text">Get a weekly email of our pros' current thinking about financial markets, investing egieas, and personal finance.</p>
+                                            <form class="signup">
+                                                <input type="text" placeholder="Name" class="name form-control">
+                                                <input type="text" placeholder="Email" class="email form-control">
+                                                <textarea placeholder="Message" class="message form-control"></textarea>
+                                                <button type="submit" class="submit">Submit Message<i class="fa fa-long-arrow-right"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div id="back-top"><a href="#top" class="link"><i class="fa fa-angle-double-up"></i></a></div>
+        </div>
+        <!-- FOOTER-->
+        <footer>
+            <div class="footer-main padding-top padding-bottom">
+                <div class="container">
+                    <div class="footer-main-wrapper">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="about-us"><img src="assets/images/logo-eb.png" alt="Main Logo" class="logo">
+                                    <div class="content">
+                                        <p class="text">Ut enim ad minim veniam, quis nostrud cittion ullamco laboris nisi ut aliquip cosquat uis aute irure dolor ullamco nisi inkabris reprhenderit labore.</p>
+                                        <ul class="list-inline list-unstyled social-list">
+                                            <li><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#" class="link twitter"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#" class="link pinterest"><i class="fa fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" class="link google"><i class="fa fa-google"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="contact-us">
+                                    <div class="title">CONTACT US</div>
+                                    <div class="content"><a href="javascript:void(0)" class="contact-item"><i class="fa fa-map-marker"></i><p class="description">132, My Street, Kingston, New York</p></a>
+                                        <div class="contact-item tel"><i class="fa fa-phone"></i>
+                                            <div class="description"><a href="javascript:void(0)" class="number">(+1) 369-258-147</a><a href="javascript:void(0)" class="alt-number">(+1) 369-268-157</a></div>
+                                        </div><a href="javascript:void(0)" class="contact-item"><i class="fa fa-envelope-o"></i><p class="description">hello@swlabs.com</p></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="twitter">
+                                    <div class="title">TWITTER WIDGET</div>
+                                    <div class="content">
+                                        <div class="twitter-text">
+                                            <p>Looking for awesome PSD template?</p>
+                                            <p> | Find it here: <a href="#" class="link-wg">http://tf.net/swlabs</a></p>
+                                        </div>
+                                        <div class="twitter-social"><i class="icons fa fa-twitter"></i><span>01 day ago</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="twitter-text">
+                                            <p>Looking for awesome PSD template?</p>
+                                            <p> | Find it here: <a href="#" class="link-wg">http://tf.net/swlabs</a></p>
+                                        </div>
+                                        <div class="twitter-social"><i class="icons fa fa-twitter"></i><span>01 day ago</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="gallery">
+                                    <div class="title">GALLERY</div>
+                                    <div class="content">
+                                        <ul class="list-unstyled list-inline">
+                                            <li>
+                                                <a href="#" class="thumb"><img src="assets/images/gallery-01.jpg" alt="gallery image 1" class="img-responsive"><span class="dh-overlay"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="thumb"><img src="assets/images/gallery-02.jpg" alt="gallery image 2" class="img-responsive"><span class="dh-overlay"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="thumb"><img src="assets/images/gallery-03.jpg" alt="gallery image 3" class="img-responsive"><span class="dh-overlay"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="thumb"><img src="assets/images/gallery-04.jpg" alt="gallery image 4" class="img-responsive"><span class="dh-overlay"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="thumb"><img src="assets/images/gallery-05.jpg" alt="gallery image 5" class="img-responsive"><span class="dh-overlay"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="thumb"><img src="assets/images/gallery-06.jpg" alt="gallery image 6" class="img-responsive"><span class="dh-overlay"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-sub padding-top-xs padding-bottom-xs">
+                <div class="container">
+                    <div class="name-company">All Rights Reserved &copy; Designed by SWLABS.</div>
+                    <nav class="footer-nav collapse navbar-collapse pull-right">
+                        <ul class="nav-links nav navbar-nav">
+                            <li class="active"><a href="index.html" class="nav-item"><span class="text">Home</span></a></li>
+                            <li><a href="faq.html" class="nav-item"><span class="text">FAQ</span></a></li>
+                            <li><a href="privacy-term.html" class="nav-item"><span class="text">Privacy & Term</span></a></li>
+                            <li><a href="contact.html" class="nav-item"><span class="text">Contact</span></a></li>
+                            <li><a href="help.html" class="nav-item"><span class="text">Help</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- LIBRARY JS-->
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/browser.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.countTo.js"></script>
+    <script src="assets/js/js.cookie.js"></script>
+    <script src="assets/js/jquery.selectbox-0.2.js"></script>
+    <script src="assets/js/jquery-jvectormap.min.js"></script>
+    <script src="assets/js/jquery-jvectormap-us-aea.js"></script>
+    <script src="assets/js/jquery.directional-hover.min.js"></script>
+    <script src="assets/js/enquire.min.js"></script>
+
+    <script src='assets/js/isotope.pkgd.min.js?ver=4.5.3'></script>
+    <script src='assets/js/packery-mode.pkgd.min.js?ver=4.5.3'></script>
+    <!-- MAIN JS-->
+    <script src="assets/js/main.js"></script>
+    <!-- LOADING JS FOR PAGE-->
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/jquery.fancybox-buttons.js"></script>
+    <script src="assets/js/jquery.fancybox-thumbs.js"></script>
+    <script src="assets/js/homepage-02.js"></script>
+    <script src="assets/js/Chart.bundle.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/moment-timezone-with-data.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/packery-mode.pkgd.min.js"></script>
+</body>
+</html>

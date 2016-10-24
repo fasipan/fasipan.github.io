@@ -1,0 +1,3427 @@
+/**
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary:
+ *
+ *    0. VARIABLE LESS
+ *        - 0.1. Color
+ *    1. RESPONSIVE SCREEN
+ *        - 1.1. Media screen max width 1024px
+ *        - 1.2. Media screen max width 768px
+ *        - 1.3. Media screen max width 767px
+ *        - 1.4. Media screen max width 600px
+ *        - 1.5. Media screen max width 480px
+ *        - 1.6. Media screen max width 380px
+ *        - 1.7. Media screen max width 320px
+ */
+/*
+=====================================
+=            VARIABLE LESS          =
+=====================================
+*/
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary:
+ *
+ *    0. VARIABLE LESS
+ *        - 0.1. Color
+ *        - 0.2. Font
+ *    1. MIXINS
+
+
+/*
+=============================
+====    VARIABLE LESS    ====
+=============================
+*/
+/*
+----------  0.1. Color  ----------
+*/
+/*
+----------  0.2. Font  ----------
+*/
+/*
+=============================
+===   END VARIABLE LESS   ===
+=============================
+*/
+/*
+=============================
+====        MIXINS       ====
+=============================
+*/
+/*
+=============================
+===       END MIXINS      ===
+=============================
+*/
+/*
+----------  0.1. Color  ----------
+*/
+/*
+=====  End of VARIABLE LESS  ======
+*/
+/*
+=========================================
+=            RESPONSIVE SCREEN          =
+=========================================
+*/
+/*
+----------  1.1. Media screen max width 2000px  ----------
+*/
+@media screen and (max-width: 2000px) {
+  .service .piggy-man {
+    right: 68%;
+  }
+}
+/*
+----------  1.1. Media screen max width 1800px  ----------
+*/
+@media screen and (max-width: 1800px) {
+  .stats-02 .stats-man {
+    left: 2%;
+    width: 21%;
+  }
+  .service .piggy-man {
+    right: 70%;
+  }
+  /*        page-team        */
+  .wrapper-section-see .wrapper-see-img {
+    position: absolute;
+    content: '';
+    left: 90px;
+    bottom: 0;
+    width: 23%;
+  }
+  /*        404        */
+  .wrapper-404 {
+    text-align: center;
+  }
+  .wrapper-404 .title {
+    margin-top: 0;
+    font-size: 50px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+}
+/*
+----------  1.2. Media screen max width 1600px  ----------
+*/
+@media screen and (max-width: 1600px) {
+  .stats-02 .stats-man {
+    left: 2%;
+  }
+  .service .piggy-man {
+    right: 72%;
+  }
+  .achievement {
+    background-size: contain;
+  }
+}
+/*
+----------  1.3. Media screen max width 1440px  ----------
+*/
+@media screen and (max-width: 1440px) {
+  .stats-02 .stats-man {
+    display: none;
+  }
+  .stats-02 .col-lg-10 {
+    width: 100%;
+  }
+  .stats-02 .col-lg-10.pull-right {
+    float: none !important;
+  }
+  .service .piggy-man {
+    display: none;
+  }
+  .service .col-lg-9 {
+    width: 100%;
+  }
+  .service .col-lg-9.pull-right {
+    float: none !important;
+  }
+  .wrapper-404 .title {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+  .wrapper-section-see .wrapper-see-img {
+    left: 30px;
+    width: 25%;
+  }
+}
+/*
+----------  1.3. Media screen max width 1199px  ----------
+*/
+@media screen and (max-width: 1199px) {
+  /*
+    ==============================
+    =           SECTION          =
+    ==============================
+    */
+  .who-alt .who-content {
+    padding-left: 15px;
+  }
+  .who-alt .who-content:before {
+    background-color: rgba(147, 194, 61, 0.95);
+    left: -50%;
+  }
+  .who-accountant-banner .who-content:before {
+    background-color: #843293;
+  }
+  /*
+    =====  End of Section  ======
+    */
+}
+/*
+----------  1.1. Media screen max width 1024px  ----------
+*/
+@media screen and (max-width: 1024px) {
+  /*     Project      */
+  .main-project-left {
+    padding-right: 15px;
+  }
+  .main-project-right {
+    padding-left: 15px;
+  }
+  /*     About      */
+  .wrapper-banner-why .why-icon:before {
+    height: 30%;
+  }
+  .achievement .title {
+    font-size: 25px;
+  }
+  .wrapper-timeline .content-timeline {
+    padding-left: 100px;
+  }
+  /*      TEAM       */
+  .section-team .wrapper-social-text {
+    bottom: -200px;
+  }
+  .section-team .wrapper-social-text {
+    padding: 15px 0 15px 0;
+  }
+  .section-team .widgets-social .number {
+    font-size: 50px;
+  }
+  .wrapper-section-see .wrapper-see-img {
+    left: 10px;
+    width: 25%;
+  }
+  .wrapper-see-text .title {
+    font-size: 25px;
+  }
+  .section-team ul li {
+    margin-right: 5px;
+  }
+  /*    BLOG    */
+  .main-blog-right .title-text {
+    font-size: 20px;
+  }
+  /*    BLOG    */
+  .who.who-banner {
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position-x: 100%;
+  }
+  .testimonial .content,
+  .testimonial-dark .content {
+    padding: 70px 420px 70px 40px;
+  }
+  /*   CHART    */
+  #stack-bar-chart svg {
+    width: 400px;
+  }
+  #group-bar-chart svg {
+    width: 400px;
+  }
+  #pie-chart svg {
+    width: 400px;
+  }
+  #donut-pie-chart svg {
+    width: 400px;
+  }
+  /*   home-financial    */
+  .wp-stats-financial .stat {
+    padding: 40px 0 40px 20px;
+  }
+  /*     home-investment   */
+  .who-investment .who-content:before {
+    background-color: #00bff3;
+  }
+  .bg-footer-banking {
+    margin-bottom: 0;
+  }
+  .work-investment #pie-chart svg {
+    width: inherit;
+  }
+  .work-investment .col-chart-invesment {
+    padding-right: 0;
+  }
+  .work-investment .col-chart-invesment .wp-charst {
+    min-height: 400px;
+  }
+  .work-investment .small-chart-wrapper {
+    margin-top: 90px;
+    margin-bottom: 0 !important;
+  }
+  .work-investment .small-chart-wrapper .pie-chart-investment {
+    padding-left: 0;
+    margin-bottom: 0 !important;
+  }
+  .work-investment .small-chart-wrapper .pie-chart-investment .wp-charst {
+    padding-top: 15px;
+    max-height: 300px;
+  }
+  .work-investment .small-chart-wrapper .line-chart-investment {
+    margin-top: 60px;
+    margin-bottom: 0 !important;
+    padding-right: 0;
+  }
+  .work-investment .small-chart-wrapper .line-chart-investment .wp-charst {
+    min-height: 300px;
+  }
+}
+/*
+----------  1.2. Media screen max width 768px  ----------
+*/
+@media screen and (max-width: 768px) {
+  .page-banner {
+    background-attachment: inherit;
+  }
+  /*
+    ====================================
+    =            GLOBAL STYLE          =
+    ====================================
+    */
+  /*
+    ----------  0.1. Miscellaneous  ----------
+    */
+  .visible-tablet {
+    display: block !important;
+  }
+  .page-title-wrapper .title {
+    font-size: 40px;
+  }
+  .padding-top {
+    padding-top: 80px;
+  }
+  .padding-bottom {
+    padding-bottom: 80px;
+  }
+  .page-title-wrapper {
+    padding: 100px 0;
+  }
+  /*
+    ----------  0.2. Section Title  ----------
+    */
+  .title-wrapper .subtitle {
+    font-size: 5.71429rem;
+    letter-spacing: 5px;
+  }
+  .title-wrapper .title {
+    font-size: 2rem;
+  }
+  /*
+    =====  End of GLOBAL STYLE  ======
+    */
+  /*
+    ==============================
+    =           HEADER          =
+    ==============================
+    */
+  .container > .navbar-header {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .dummy-container {
+    width: 100%;
+  }
+  .navbar-header {
+    text-align: center;
+    float: none;
+  }
+  .bg-transparent .header-main-wrapper .navbar-header {
+    position: relative;
+    left: auto;
+  }
+  .bg-center .header-fixed .navbar-header {
+    float: none;
+  }
+  .bg-white .topbar.pull-right {
+    display: none;
+  }
+  .bg-white .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .bg-white nav.navigation a.main-menu {
+    color: #fff;
+  }
+  .bg-white .header-fixed .btn-hamburger.open .icon-bar {
+    background-color: #555555;
+  }
+  .bg-white .header-fixed .btn-hamburger.open .icon-bar:before,
+  .bg-white .header-fixed .btn-hamburger.open .icon-bar:after {
+    background-color: #555555;
+  }
+  .bg-transparent .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .bg-center.navhidden-padding {
+    padding-bottom: 101px;
+  }
+  .bg-center .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .bg-center nav.navigation .main-menu {
+    color: #fff;
+  }
+  .navbar-offcanvas {
+    position: fixed !important;
+    display: block;
+    top: 0 !important;
+    bottom: 0;
+    transition: left 0.25s ease-out;
+    left: -80vw;
+    width: 80vw;
+    height: 100%;
+    background-color: #040921;
+    opacity: 0.98;
+    overflow-y: scroll;
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+  .navbar-offcanvas.active {
+    left: 0;
+  }
+  .navbar-offcanvas .navbar-nav {
+    margin: 0;
+    width: 100%;
+  }
+  .navbar-offcanvas .navbar-nav li {
+    float: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+  }
+  .navbar-offcanvas .navbar-nav li a.main-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 17px;
+    line-height: 50px;
+  }
+  .navbar-offcanvas .nav-wrapper {
+    position: static;
+    display: block;
+    margin-top: 81px;
+  }
+  .navbar-offcanvas .dropdown-menu {
+    position: relative;
+    width: 100%;
+    background-color: #12183a;
+    box-shadow: none;
+  }
+  .navbar-offcanvas .dropdown-menu li {
+    border-top: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+  }
+  .navbar-offcanvas .dropdown-menu > li > a {
+    padding-left: 30px;
+  }
+  .navbar-offcanvas .dropdown-menu > li > a:focus,
+  .navbar-offcanvas .dropdown-menu > li > a:hover {
+    background-color: transparent;
+    color: #93c23d;
+  }
+  .navbar-offcanvas li:hover .main-menu i {
+    transform: none !important;
+  }
+  .navbar-offcanvas li:hover .dropdown-menu {
+    display: none !important;
+  }
+  .navbar-offcanvas li:hover a.main-menu span.text:before {
+    display: none;
+  }
+  .navbar-offcanvas li .dropdown-menu.drop-open {
+    display: block !important;
+  }
+  .navbar-offcanvas li .main-menu i.active {
+    transform: rotate(180deg) !important;
+  }
+  .navbar-offcanvas li .icons-dropdown {
+    float: right;
+  }
+  .navbar-offcanvas li.active a.main-menu span.text:before {
+    left: -17px;
+    top: -15px;
+    width: 3px;
+    height: 50px !important;
+  }
+  .navbar-offcanvas .search-btn {
+    display: none;
+  }
+  .navbar-offcanvas .nav-search {
+    left: 0;
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+  }
+  .navbar-offcanvas .nav-search form {
+    position: relative;
+  }
+  .navbar-offcanvas .nav-search form input[type="text"] {
+    width: 100%;
+    padding-right: 40px;
+    background-color: transparent;
+  }
+  .navbar-offcanvas .nav-search form .search-btn {
+    position: absolute;
+    right: 0;
+  }
+  .bg-white .nav-search,
+  .bg-transparent .nav-search,
+  .bg-center .nav-search {
+    top: 0;
+  }
+  .bg-white .header-fixed .nav-search,
+  .bg-transparent .header-fixed .nav-search,
+  .bg-center .header-fixed .nav-search {
+    top: 0;
+  }
+  /*
+    =====  End of HEADER  ======
+    */
+  /*
+    ==============================
+    =           SECTION          =
+    ==============================
+    */
+  .homepage-01 .banner-02,
+  .homepage-01 .banner-03 {
+    display: none;
+  }
+  .homepage-01.page-slider-home-1 .banner-04,
+  .homepage-01.page-slider-home-1 .banner-05,
+  .homepage-01.page-slider-home-1 .banner-06,
+  .homepage-01.page-slider-home-1 .banner-07,
+  .homepage-01.page-slider-home-1 .banner-08 {
+    display: none;
+  }
+  .homepage-01 .content-wrapper .text {
+    margin-bottom: 30px;
+  }
+  .homepage-02 .banner-01,
+  .homepage-02 .banner-03 {
+    display: none;
+  }
+  .homepage-02 .content-wrapper .text {
+    margin-bottom: 30px;
+  }
+  .homepage-03 {
+    margin-top: -152px;
+  }
+  .homepage-03 .page-banner {
+    padding-top: 152px;
+  }
+  .homepage-03 .banner-01,
+  .homepage-03 .banner-02 {
+    display: none;
+  }
+  .homepage-03 .content-wrapper .text {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .newsletter .banner-left {
+    display: none;
+  }
+  .newsletter .banner-middle {
+    width: 41.66666667%;
+  }
+  /*
+    =====  End of Section  ======
+    */
+  /*
+    ==============================
+    =            PAGE            =
+    ==============================
+    */
+  /*
+    ----------  INDEX  ----------
+    */
+  .banner .banner-left .main-left {
+    margin-bottom: 30px;
+  }
+  .achievement-dark .banner-right .item-logo {
+    margin: 0 auto;
+  }
+  .achievement-dark .banner-right .wrapper-img .logo-achievement {
+    margin: 0 auto;
+  }
+  .achievement-dark .banner-right .wrapper-img {
+    width: 100%;
+  }
+  .achievement-dark .banner-right .wrapper-img .logo-hover {
+    right: 0;
+    bottom: 0;
+  }
+  .testimonial .content:after,
+  .testimonial-dark .content:after {
+    font-size: 4rem;
+    top: 60px;
+  }
+  .testimonial .content,
+  .testimonial-dark .content {
+    padding: 60px 60px 60px 280px;
+  }
+  .finance .author {
+    margin-left: 0;
+  }
+  .testimonial .testimonial-man,
+  .testimonial-dark .testimonial-man {
+    right: 67%;
+    width: 30%;
+  }
+  .testimonial .slick-dots,
+  .testimonial-dark .slick-dots {
+    top: 90%;
+    right: 45%;
+  }
+  .testimonial .slick-dots li,
+  .testimonial-dark .slick-dots li {
+    display: inline-block;
+  }
+  .w3-icon {
+    font-size: 130px;
+    top: 25px;
+  }
+  .who .banner-left:before {
+    bottom: -80px;
+    top: -80px;
+  }
+  .finance .col-xs-6:nth-child(1),
+  .finance .col-xs-6:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  /*
+    ----------  home page 2  ----------
+    */
+  .service-02-intro {
+    margin-bottom: 30px;
+  }
+  .service-02-intro:last-child {
+    margin-bottom: 0;
+  }
+  .who-alt-banner {
+    background-image: none;
+  }
+  .testimonial-dark .content:before {
+    width: 100%;
+  }
+  .testimonial-dark .slick-dots .slick-active button {
+    border-color: #93c23d;
+    color: #93c23d;
+  }
+  .achievement-light .banner-left .main-left {
+    margin-bottom: 0;
+  }
+  .achievement-light {
+    background-color: #f9f9f9;
+  }
+  .market .col-md-4 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .market .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+  .sign-up .subscribe-email-wrapper .subscribe-email-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sign-up .subscribe-email-wrapper .subscribe-email-right {
+    float: none;
+    margin: 0 auto;
+  }
+  /*
+    ----------  4.1. Service  ----------
+    */
+  .page-title {
+    margin-bottom: 50px;
+  }
+  .main-our-service {
+    margin-bottom: 50px;
+  }
+  .content-our-service .col-md-4:nth-child(4) .main-our-service {
+    margin-bottom: 50px;
+  }
+  .banner-ceo .content-banner-ceo {
+    padding: 80px 0;
+  }
+  .banner-ceo .ceo-img .img {
+    width: 17%;
+    left: 100px;
+  }
+  .wrapper-serve .main-text .wp-text {
+    padding-left: 0;
+    width: 80%;
+    display: inline-block;
+  }
+  .wrapper-serve .main-text .text-number {
+    width: 20%;
+    float: left;
+  }
+  .wrapper-serve .content-serve .fl-right {
+    float: none;
+  }
+  .wrapper-serve .main-text {
+    padding-top: 20px;
+  }
+  .warpper-plan .content-plan:nth-child(1),
+  .warpper-plan .content-plan:nth-child(2) {
+    border-bottom: 1px solid #dcdee3;
+  }
+  .wrapper-section-how .wp-6 {
+    float: left;
+    width: 100%;
+  }
+  .wrapper-section-how .wp-6:nth-last-child(-n + 2 ) {
+    margin-bottom: 50px;
+  }
+  .wrapper-section-how .wp-6:last-child {
+    margin-bottom: 0;
+  }
+  .ceo .ceo-img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .wrapper-serve .wp-sv {
+    display: block;
+  }
+  .main-testimonial .w3-icon {
+    display: inherit;
+  }
+  /*
+    ----------  4.2. Project  ----------
+    */
+  .main-project-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .main-project-right {
+    width: 100%;
+  }
+  .wrapper-project-logo {
+    margin: 0;
+  }
+  .wrapper-our-text .our-text {
+    margin-bottom: 30px;
+  }
+  /*
+    ----------  4.3. Project Single  ----------
+    */
+  .wrapper-ap-title .main-text {
+    width: 20%;
+    display: inline-block;
+  }
+  .wrapper-ap-title .main-text:nth-child(2) {
+    width: 10%;
+  }
+  .wrapper-ap-title .main-text:nth-child(4),
+  .wrapper-ap-title .main-text:nth-child(5) {
+    width: 25%;
+  }
+  .wrapper-ap-img {
+    margin-bottom: 30px;
+  }
+  .wp-pd-responsive {
+    padding-bottom: 30px;
+  }
+  section.page-banner.page-project-single {
+    background-position: right;
+  }
+  /*
+    -----------  4.4. Blog  -----------
+    */
+  .content-blog {
+    margin-bottom: 50px;
+  }
+  /*           ABOUT           */
+  section.page-banner.about {
+    background-position: right bottom;
+  }
+  .wrapper-timeline {
+    padding-left: 40px;
+  }
+  .wrapper-timeline .content-timeline {
+    padding-left: 80px;
+  }
+  .wrapper-timeline .timeline-number {
+    font-size: 35px;
+  }
+  .wrapper-banner-why .content-why {
+    margin-bottom: 30px;
+  }
+  .content-about-done .col-sm-12 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .content-about-done .col-sm-12.chart-md {
+    margin-top: 0;
+  }
+  .content-banner-map .main-left {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .content-banner-map .left-text .timeline-title {
+    max-width: 160px;
+  }
+  .wrapper-banner-why .why-icon:before {
+    height: 40%;
+  }
+  .wrapper-timeline .timeline-block {
+    margin-bottom: 60px;
+  }
+  .wrapper-timeline .timeline-slider .slick-prev,
+  .wrapper-timeline .timeline-slider .slick-next {
+    display: none !important;
+  }
+  .page-blog-detail {
+    background-position: right;
+  }
+  .slick-dots li button {
+    background-color: #f9f9f9;
+    color: #93c23d;
+    border-radius: 50%;
+  }
+  .slick-dots li button:before {
+    color: #93c23d;
+  }
+  .slick-dots li.slick-active button:before {
+    color: #93c23d;
+  }
+  /*    TEAM    */
+  .section-team .main-content:hover .wrapper-social-text {
+    display: none;
+  }
+  .section-team ul .icon-tab {
+    padding: 8px 10px;
+  }
+  .section-team .main-content {
+    margin-bottom: 30px;
+  }
+  .wrapper-main-content .col-sm-6:nth-child(3) .main-content,
+  .wrapper-main-content .col-sm-6:nth-child(4) .main-content {
+    margin-bottom: 0;
+  }
+  .wrapper-section-see .wrapper-see-img {
+    display: none;
+  }
+  .content-open {
+    margin-bottom: 40px;
+  }
+  .section-team .tap-nav {
+    margin-bottom: 40px;
+  }
+  .wrapper-text-excel .list-text {
+    margin-bottom: 20px;
+  }
+  /*
+    ----------  4.5. Contact  ----------
+    */
+  .section-contact {
+    text-align: center;
+  }
+  .section-contact .col-md-4.col-xs-6.style-2 {
+    float: none;
+    margin: 30px auto 0 auto;
+    display: inline-block;
+  }
+  .contact-map:before {
+    width: 100%;
+  }
+  .contact-map #googleMap {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  .list-places {
+    text-align: center;
+  }
+  .wrapper-places {
+    width: 50%;
+    float: left;
+  }
+  .wrapper-places .main-title {
+    width: auto;
+    position: relative;
+    top: 10px;
+  }
+  .wrapper-places.style-2 {
+    float: none;
+    display: inline-block;
+  }
+  /*
+    ----------  4.6. Blog Detail  ----------
+    */
+  .sidebar {
+    padding-top: 70px;
+  }
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    width: 50%;
+    float: left;
+  }
+  .col-2:nth-child(even) {
+    padding-right: 15px;
+  }
+  .col-2:nth-child(odd) {
+    padding-left: 15px;
+  }
+  .col-2 .widget:last-child {
+    margin-bottom: 0;
+  }
+  /*
+    ----------  section news  ----------
+    */
+  .news .date {
+    padding-left: 120px;
+  }
+  .news .date:before {
+    left: 0;
+  }
+  .news .article img {
+    margin-bottom: 30px;
+  }
+  /*
+    =====  End of PAGE  ======
+    */
+  /*
+    ==============================
+    =           FOOTER           =
+    ==============================
+    */
+  .footer-main-wrapper [class*=col-] {
+    margin-bottom: 50px;
+  }
+  .footer-main-wrapper [class*=col-]:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+  /*
+    ----------  home-banking  ----------
+    */
+  .service-banking .wp-box {
+    padding: 80px 0 80px 0;
+  }
+  .service-banking .wp-box .bg-homepage-banking {
+    background-image: none;
+  }
+  .service-banking .col-xs-6:nth-child(1),
+  .service-banking .col-xs-6:nth-child(2) {
+    margin-bottom: 0;
+  }
+  .who.who-01 {
+    background-image: none;
+  }
+  .who.who-01 .banner-left:before {
+    left: -50%;
+  }
+  .who.who-01 .quote {
+    padding-top: 0;
+  }
+  .who.who-01 blockquote {
+    margin-bottom: 0;
+  }
+  .who.who-01 .signature {
+    margin-bottom: 0;
+  }
+  .chart-banking .chart-md {
+    margin-bottom: 30px;
+  }
+  .bg-footer-banking .footer-main-wrapper {
+    margin-bottom: 80px;
+  }
+  /*
+    ----------  home-accountant  ----------
+    */
+  .wp-box {
+    padding: 80px 0 120px 0;
+  }
+  .team-accountant-title .wp-box {
+    padding: 80px 0 80px 0;
+  }
+  .wrapper-team-accountant .main-content {
+    margin-bottom: 0;
+  }
+  .bg-footer-accountant .footer-main-wrapper {
+    margin-bottom: 80px;
+  }
+  .content-gallery .slick-dots li button {
+    background: transparent;
+    color: transparent;
+  }
+  .content-gallery .slick-dots li.slick-active button:before {
+    color: transparent;
+  }
+  /*
+    ----------  home-consultant  ----------
+    */
+  .bg-header-consultant .btn-hamburger .icon-bar {
+    background-color: #b52d2b;
+  }
+  .bg-header-consultant .btn-hamburger .icon-bar:before,
+  .bg-header-consultant .btn-hamburger .icon-bar:after {
+    background-color: #b52d2b;
+  }
+  .wrapper-text-consutant .col-md-4:nth-last-child(-n + 3) .content-text-consutant {
+    margin-bottom: 40px;
+  }
+  .wrapper-text-consutant .col-md-4:nth-last-child(-n + 2) .content-text-consutant {
+    margin-bottom: 0;
+  }
+  .home-consultant .banner-08 .text {
+    width: 75%;
+  }
+  .bg-footer-3 .footer-main-wrapper {
+    padding-bottom: 80px;
+  }
+  /*
+    ----------  home-financial  ----------
+    */
+  .bg-header-financial .btn-hamburger .icon-bar {
+    background-color: #1b6f9b;
+  }
+  .bg-header-financial .btn-hamburger .icon-bar:before,
+  .bg-header-financial .btn-hamburger .icon-bar:after {
+    background-color: #1b6f9b;
+  }
+  .service-02 .col-md-4:nth-last-child(-n+3) .service-02-intro {
+    margin-bottom: 40px;
+  }
+  .service-02 .col-md-4 .service-02-intro {
+    margin-bottom: 40px;
+  }
+  .team-financial .slick-prev {
+    left: -10px;
+  }
+  .team-financial .slick-next {
+    right: -10px;
+  }
+  .wp-stats-financial .stat {
+    margin-bottom: 30px;
+  }
+  .wp-stats-financial .col-sm-6:nth-last-child(-n+2) .stat {
+    margin-bottom: 0;
+  }
+  .news-financial .content-blog .main-blog-left {
+    margin-bottom: 30px;
+  }
+  /*
+    =====  End of FOOTER  ======
+    */
+  /*       Project-3        */
+  .section-our-project-03 .col-sm-6:nth-last-child(-n + 2).margin-bottom-mobile {
+    margin-bottom: 0;
+  }
+  .section-our-project-03 .margin-bottom-mobile {
+    margin-bottom: 30px;
+  }
+  .section-our-project-03 .wp-img {
+    margin-bottom: 20px;
+  }
+  /*       Project-4        */
+  .section-our-project-04 .col-sm-6:nth-last-child(-n + 2).margin-bottom-mobile {
+    margin-bottom: 0;
+  }
+  .section-our-project-04 .margin-bottom-mobile {
+    margin-bottom: 30px;
+  }
+  .section-our-project-04 .wp-img {
+    margin-bottom: 20px;
+  }
+  /*   CHART    */
+  #stack-bar-chart svg {
+    width: 500px;
+  }
+  #group-bar-chart svg {
+    width: 500px;
+  }
+  #pie-chart svg {
+    width: 500px;
+  }
+  #donut-pie-chart svg {
+    width: 500px;
+  }
+  .content-charst .chart-md {
+    margin-bottom: 30px;
+  }
+  .content-charst .chart-md:last-child {
+    margin-bottom: 0;
+  }
+  /*        Homepage Startup         */
+  .slider-startup .content-wrapper .text {
+    width: 100%;
+  }
+  .chart-startup .chart-md {
+    margin-bottom: 50px;
+  }
+  .news-startup .main-blog-right .number {
+    padding-left: 120px;
+  }
+  .news-startup .main-blog-right .title:before {
+    left: 0;
+  }
+  .service-startup .content-accountant-service .main-accountant-service {
+    margin-bottom: 60px;
+  }
+  .service-startup .content-accountant-service .col-md-4:nth-last-child(-n + 3) .main-accountant-service {
+    margin-bottom: 60px;
+  }
+  .service-startup .content-accountant-service .col-md-4:nth-last-child(-n + 2) .main-accountant-service {
+    margin-bottom: 0px;
+  }
+  /*          Homepage - Investment        */
+  .work-investment .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .work-investment .col-md-4 {
+    padding-left: 15px;
+  }
+  .bg-wp-footer {
+    margin-bottom: 80px;
+  }
+  .padding-bottom-350 {
+    padding-bottom: 150px;
+  }
+  .bg-header-page .navbar-header {
+    position: relative;
+  }
+  .bg-header-page .header-main-04 .navbar-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .header-purple .btn-hamburger {
+    top: 65%;
+  }
+  .header-purple .header-main.header-fixed {
+    height: 70px;
+  }
+  .header-purple .header-main {
+    height: 90px;
+  }
+  .bg-footer-accountant {
+    margin-bottom: 0;
+  }
+  .header-startup .btn-hamburger {
+    top: 55%;
+  }
+  .bg-footer-banking {
+    margin-bottom: 0;
+  }
+  .wrapper-team-accountant .slick-prev {
+    left: -10px;
+  }
+  .wrapper-team-accountant .slick-next {
+    right: -10px;
+  }
+  .header-startup-04.header-fixed {
+    height: 50px !important;
+  }
+  .header-startup-04.header-fixed .navbar-header {
+    padding-top: 0px;
+  }
+  .market-investment .wp-box {
+    padding: 80px 0;
+  }
+  .market-investment .wp-box .text {
+    margin-bottom: 10px;
+  }
+  .market-investment .stock-info {
+    width: 30%;
+  }
+  .market-investment .chart-tiny {
+    width: 70%;
+  }
+  .market-investment .stock-info span.name,
+  .market-investment .stock-info span.change {
+    font-size: 12px;
+  }
+  .market-investment .stock-info span.price {
+    font-size: 16px;
+  }
+  .market-investment .stock-info span.date {
+    line-height: 18px;
+    font-size: 11px;
+  }
+  .market-investment .chart-item {
+    margin-top: 20px;
+  }
+  .market-investment .chart-item:nth-child(-n + 2) {
+    margin-top: 0;
+  }
+  .work-investment .wp-box {
+    padding-bottom: 0 !important;
+  }
+  .work-investment .content-item {
+    margin-top: 20px;
+  }
+  .work-investment .content-item:nth-child(-n + 2) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .work-investment .content-item:last-child {
+    margin-bottom: 20px;
+  }
+  .work-investment .small-chart-wrapper {
+    margin-top: 50px;
+  }
+  .work-investment .small-chart-wrapper .pie-chart-investment {
+    padding-right: 10px;
+  }
+  .work-investment .small-chart-wrapper .line-chart-investment {
+    padding-left: 10px;
+  }
+  .achievement-investment .banner .banner-right {
+    background-color: #00bff3;
+  }
+  .service-investment .col-sm-6.service-item {
+    margin-top: 60px;
+  }
+  .service-investment .col-sm-6.service-item:nth-child(-n + 2) {
+    margin-top: 0;
+  }
+  .service-investment .col-sm-6.service-item .title {
+    margin-top: 10px;
+  }
+  .market-investment .wp-box,
+  .service-investment .wp-box,
+  .work-investment .wp-box {
+    padding: 80px 0;
+  }
+  /*          Homepage - Investment        */
+  .project-insurance .wp-box,
+  .people-insurance .wp-box,
+  .update-insurance .wp-box,
+  .service-insurance .wp-box {
+    padding: 80px 0;
+  }
+  .project-insurance .wp-box {
+    padding-bottom: 0;
+  }
+  .goahead-insurance .slider-sm {
+    display: inline-block;
+  }
+  .goahead-insurance .slider-lg {
+    display: none;
+  }
+  .goahead-insurance.who.who-01 .quote {
+    padding-right: 0;
+  }
+  .goahead-insurance.who.who-01 .quote-icon {
+    top: 15px;
+  }
+  .testimonial-insurance {
+    padding-bottom: 0;
+  }
+  .finance .col-xs-6:nth-child(1),
+  .finance .col-xs-6:nth-child(2) {
+    margin-bottom: 0;
+  }
+  .service-insurance .service-financial {
+    padding-bottom: 0;
+  }
+  .service-insurance .service-financial .service-02-intro {
+    margin-bottom: 40px;
+  }
+  .service-insurance .service-financial .col-xs-6:nth-last-child(-n + 2) .service-02-intro {
+    margin-bottom: 0;
+  }
+  /*          Home slider        */
+  .page-slider-home-1 .content-wrapper .text {
+    width: 90%;
+  }
+  .header-startup {
+    padding-bottom: 0;
+  }
+}
+/*
+----------  1.3. Media screen max width 767px  ----------
+*/
+@media screen and (max-width: 767px) {
+  /*
+    ==============================
+    =           SECTION          =
+    ==============================
+    */
+  .homepage-01 .page-banner,
+  .homepage-03 .page-banner,
+  .page-slider-home-1 .page-banner {
+    min-height: 650px;
+  }
+  .homepage-02 .page-banner {
+    min-height: 550px;
+  }
+  .achievement .banner,
+  .achievement-dark .banner,
+  .achievement-light .banner {
+    display: block;
+    width: auto;
+  }
+  .achievement .banner-left,
+  .achievement-dark .banner-left,
+  .achievement-light .banner-left,
+  .achievement .banner-right,
+  .achievement-dark .banner-right,
+  .achievement-light .banner-right {
+    display: block;
+  }
+  .achievement .dummy-cell,
+  .achievement-dark .dummy-cell,
+  .achievement-light .dummy-cell {
+    display: none;
+  }
+  .achievement .banner-right {
+    background-color: #f9f9f9;
+  }
+  .achievement-light .banner-right {
+    background-color: #93c23d;
+  }
+  .title-wrapper .subtitle:before {
+    bottom: 0;
+  }
+  .achievement-dark .banner-left:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    height: 1px;
+    right: 15px;
+    background-color: #262629;
+  }
+  .achievement-dark .banner-main-left:before {
+    content: '';
+  }
+  .stats-02 .all-stats-wrapper {
+    font-size: 0;
+  }
+  .stats-02 .stat {
+    width: 50%;
+  }
+  .newsletter {
+    background: none;
+  }
+  .newsletter .banner-middle,
+  .newsletter .banner-right {
+    display: block;
+  }
+  .newsletter .banner-middle {
+    width: 100%;
+  }
+  .newsletter .banner-main-middle .banner-middle-title,
+  .newsletter .banner-main-middle .text,
+  .newsletter .banner-main-middle .service {
+    margin-bottom: 20px;
+  }
+  .newsletter .banner-main-middle .banner-middle-title {
+    font-size: 1.78571rem;
+  }
+  .newsletter .banner-right .banner-right-title {
+    font-size: 1.78571rem;
+  }
+  .stats-02 .all-stats-wrapper {
+    font-size: 0;
+  }
+  .stats-02 .stat {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .stats-02 .stat:nth-child(3),
+  .stats-02 .stat:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .stats .col-xs-3 {
+    width: 50%;
+  }
+  .stats .col-xs-3:nth-child(1),
+  .stats .col-xs-3:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .stats .title {
+    font-size: 75px;
+  }
+  /*
+    =====  End of SECTION  ======
+    */
+  /*
+    ============================
+    =           PAGE           =
+    ============================
+    */
+  /*
+    ----------  home page  ----------
+    */
+  .testimonial .content,
+  .testimonial-dark .content {
+    padding: 60px 40px 60px 260px;
+  }
+  .finance .signature {
+    margin: 0 0 10px 0;
+    width: 40%;
+  }
+  .service-02-intro {
+    height: auto;
+  }
+  .who .green-arrow-list {
+    margin-bottom: 35px;
+  }
+  .about-us .logo {
+    margin-bottom: 30px;
+  }
+  .footer-main h4.title {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  .twitter .content:last-child {
+    margin-bottom: 0;
+  }
+  .about-us .text {
+    margin-bottom: 20px;
+  }
+  /*
+    ----------  2.1. Service  ----------
+    */
+  .service .col-md-4 .service-intro {
+    margin-bottom: 30px;
+  }
+  .service .col-md-4:nth-last-child(-n+3) .service-intro {
+    margin-bottom: 30px;
+  }
+  .service .col-md-4:nth-last-child(-n+2) .service-intro {
+    margin-bottom: 0;
+  }
+  .service-02 .col-md-4 .service-02-intro {
+    margin-bottom: 30px;
+  }
+  .service-02 .col-md-4:nth-last-child(-n+3) .service-02-intro {
+    margin-bottom: 30px;
+  }
+  .service-02 .col-md-4:nth-last-child(-n+2) .service-02-intro {
+    margin-bottom: 0;
+  }
+  .service-03 .col-md-4 .service-03-intro {
+    margin-bottom: 30px;
+  }
+  .service-03 .col-md-4:nth-last-child(-n+3) .service-03-intro {
+    margin-bottom: 30px;
+  }
+  .service-03 .col-md-4:nth-last-child(-n+2) .service-03-intro {
+    margin-bottom: 0;
+  }
+  .main-our-service .text {
+    padding: 0 30px 20px 30px;
+  }
+  .main-plan .title {
+    margin-bottom: 20px;
+  }
+  .main-plan .icon {
+    margin-bottom: 20px;
+  }
+  .main-plan .text {
+    margin-bottom: 20px;
+  }
+  .main-plan .number {
+    margin-bottom: 20px;
+  }
+  .main-ceo-text .quote {
+    margin-bottom: 20px;
+  }
+  .ceo .ceo-img {
+    width: 50%;
+  }
+  .banner-ceo .ceo-img .img {
+    width: 15%;
+  }
+  .wrapper-serve .main-text {
+    height: auto;
+  }
+  .chart-md {
+    margin-top: 50px;
+  }
+  /*
+    ----------  2.2. Project Single  ----------
+    */
+  .wrapper-gallery .inner {
+    bottom: 3px;
+    right: 3px;
+  }
+  /*
+    ----------  2.3. Blog  ----------
+    */
+  .main-blog-right .title-text {
+    white-space: normal;
+  }
+  .main-blog-right .content-text {
+    white-space: normal;
+  }
+  /*
+    ----------  2.4. Contact  ----------
+    */
+  .wrapper-places .main-title {
+    width: auto;
+    position: absolute;
+    top: 10px;
+  }
+  .wrapper-places .main-content {
+    padding-left: 70px;
+  }
+  .wrapper-places.style-2 {
+    float: none;
+    display: inline-block;
+  }
+  /*         ABOUT             */
+  .wrapper-banner-why .why-icon:before {
+    height: 0;
+  }
+  .wrapper-timeline .content-timeline {
+    padding-left: 80px;
+  }
+  .timeline-text {
+    padding-left: 0;
+  }
+  .timeline-text:before {
+    left: -40px;
+  }
+  .achievement.achievement-banner {
+    background-size: 84%;
+  }
+  /*
+    ----------  home-banking  ----------
+    */
+  .stats-banking .title {
+    text-align: left;
+  }
+  /*
+    ----------  home-accountant  ----------
+    */
+  .bg-footer-accountant .about-us .text {
+    margin-bottom: 50px;
+  }
+  .content-accountant-service .col-md-4:nth-last-child(-n + 3) .main-accountant-service {
+    margin-bottom: 80px;
+  }
+  .content-accountant-service .col-md-4:nth-last-child(-n + 2) .main-accountant-service {
+    margin-bottom: 0;
+  }
+  .bg-wp-footer .about-us {
+    margin: 0 5%;
+  }
+  .grid-accountant .inner {
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+  }
+  .portfolio-accountant .more {
+    margin-top: 3px;
+  }
+  /*
+    ----------  home-consultant  ----------
+    */
+  .section-text-consutant .text {
+    margin: 0 3% 40px 3%;
+  }
+  /*
+    ----------  home-financial  ----------
+    */
+  .service-financial .col-md-4 .service-02-intro {
+    margin-bottom: 60px;
+  }
+  .service-financial .col-md-4:nth-last-child(-n + 3) .service-02-intro {
+    margin-bottom: 60px;
+  }
+  .service-financial .col-md-4:nth-last-child(-n + 2) .service-02-intro {
+    margin-bottom: 0;
+  }
+  .service-financial .service-02-intro .no {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .wp-stats-financial .stat {
+    width: 100%;
+  }
+  /*
+    ----------  home-investment  ----------
+    */
+  .work-investment .small-chart-wrapper .pie-chart-investment .wp-charst {
+    padding-left: 10px;
+  }
+  .service-investment .col-sm-6.service-item {
+    margin-top: 30px;
+  }
+  .service-investment .col-sm-6.service-item:nth-child(-n + 2) {
+    margin-top: 0;
+  }
+  .service-investment .col-sm-6.service-item .title {
+    margin-top: 5px;
+  }
+  /*
+    ----------  home-insurance  ----------
+    */
+  .goahead-insurance.who.who-01 .author {
+    margin-top: 15px;
+  }
+  .service-insurance .wp-box {
+    margin: 0 15px;
+  }
+  /*
+    =====  End of PAGE  ======
+    */
+  /*        Homepage Startup          */
+  .slider-startup .banner-05 .wp-select {
+    width: 265px;
+    margin-bottom: 0px;
+  }
+  /*
+    =====  about-us  ======
+    */
+  .finance-3 .text {
+    padding: 0 30px;
+  }
+  .finance-4 .text {
+    padding: 0 30px;
+  }
+  /*
+    =====  project  ======
+    */
+  .portfolio-project-5 .grid-project-5 {
+    margin: 3px -7px 3px -7px;
+  }
+  .content-charst .chart-md {
+    margin-top: 0;
+  }
+  .header-startup {
+    padding-bottom: 0;
+  }
+  .home-slider .banner-05 .btn-banner05 {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+}
+/*
+----------  1.4. Media screen max width 600px  ----------
+*/
+@media screen and (max-width: 600px) {
+  /*
+    ====================================
+    =            GLOBAL STYLE          =
+    ====================================
+    */
+  /*
+    ----------  0.1. Miscellaneous  ----------
+    */
+  .padding-top,
+  .padding-top-small {
+    padding-top: 60px;
+  }
+  .padding-bottom,
+  .padding-bottom-small {
+    padding-bottom: 60px;
+  }
+  /*
+    ----------  0.2. Section Title  ----------
+    */
+  .title-wrapper {
+    margin-bottom: 40px;
+  }
+  .title-wrapper .subtitle {
+    font-size: 4.28571rem;
+    letter-spacing: 4px;
+  }
+  .title-wrapper .title {
+    font-size: 1.85714rem;
+  }
+  /*
+    =====  End of GLOBAL STYLE  ======
+    */
+  /*
+    ==============================
+    =           HEADER           =
+    ==============================
+    */
+  .bg-center .topbar.pull-right {
+    display: none;
+  }
+  .bg-center .topbar.pull-left {
+    width: 100%;
+  }
+  .bg-center .topbar.pull-left li:first-child {
+    float: left;
+  }
+  .bg-center .topbar.pull-left li:last-child {
+    float: right;
+  }
+  .bg-white .header-topbar .topbar.pull-left > li {
+    margin-right: 0;
+  }
+  .bg-white .header-topbar .topbar.pull-left > li:last-child {
+    display: none;
+  }
+  .header-topbar .btn-wrapper {
+    margin-left: 0;
+  }
+  /*
+    =====  End of HEADER  ======
+    */
+  /*
+    ==============================
+    =           SECTION          =
+    ==============================
+    */
+  /*
+    ----------  3.1 Homepage Banner  ----------
+    */
+  .homepage-01 .content-wrapper .subtitle,
+  .homepage-02 .content-wrapper .subtitle,
+  .homepage-03 .content-wrapper .subtitle,
+  .page-slider-home-1 .content-wrapper .subtitle {
+    font-size: 1.14286rem;
+  }
+  .homepage-01 .content-wrapper .title,
+  .homepage-02 .content-wrapper .title,
+  .homepage-03 .content-wrapper .title,
+  .page-slider-home-1 .content-wrapper .title {
+    margin-top: 15px;
+    font-size: 2.14286rem;
+  }
+  .homepage-01 .page-banner,
+  .homepage-03 .page-banner {
+    min-height: 667px;
+  }
+  .homepage-01 .content-wrapper .title,
+  .homepage-03 .content-wrapper .title {
+    margin-top: 15px;
+  }
+  .homepage-01 .content-wrapper .text,
+  .homepage-03 .content-wrapper .text {
+    width: 80%;
+  }
+  .homepage-02 .page-banner {
+    height: 500px;
+    min-height: auto;
+  }
+  .newsletter .banner-middle {
+    padding-bottom: 60px;
+  }
+  .newsletter .banner-right {
+    padding-top: 60px;
+  }
+  .newsletter .banner-right:after {
+    bottom: -60px;
+  }
+  .finance .col-xs-6 {
+    width: 100%;
+  }
+  .finance-item .img-wrapper {
+    width: auto;
+    margin-right: 30px;
+  }
+  .finance .col-xs-6:nth-child(2) {
+    margin-bottom: 0;
+  }
+  .finance .col-xs-6:last-child .finance-item .img-wrapper {
+    margin-bottom: 0;
+  }
+  .portfolio .nav-tabs > .port-item:last-child,
+  .portfolio-alt .nav-tabs > .port-item:last-child,
+  .portfolio .nav-tabs > .port-item.active:last-child,
+  .portfolio-alt .nav-tabs > .port-item.active:last-child {
+    margin-top: 0;
+  }
+  .service-intro .title {
+    margin-top: 10px;
+  }
+  .who .banner-left:before {
+    bottom: -60px;
+    top: -60px;
+  }
+  .testimonial .w3-icon,
+  .testimonial-dark .w3-icon {
+    display: none;
+  }
+  .achievement .title,
+  .achievement-dark .title,
+  .achievement-light .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .portfolio ul.nav-tabs > .port-item,
+  .portfolio-alt ul.nav-tabs > .port-item,
+  .portfolio ul.nav-tabs > .port-item.active,
+  .portfolio-alt ul.nav-tabs > .port-item.active {
+    margin: 40px 30px 20px 0;
+  }
+  /*
+    =====  End of SECTION  ======
+    */
+  /*
+    ==============================
+    =            PAGE            =
+    ==============================
+    */
+  /*
+    ----------  home page ----------
+    */
+  .testimonial .content,
+  .testimonial-dark .content {
+    padding: 60px 40px 100px 200px;
+  }
+  .page-title {
+    margin-bottom: 40px;
+  }
+  .testimonial .slick-dots,
+  .testimonial-dark .slick-dots {
+    top: 85%;
+    right: 45%;
+    margin-bottom: 0;
+  }
+  /*
+    ----------  3.1. Service  ----------
+    */
+  .main-our-service .text {
+    padding: 0 20px 20px 20px;
+  }
+  .wrapper-serve .main-text .wp-text {
+    padding-left: 0;
+  }
+  .banner-ceo .ceo-img .img {
+    width: 18%;
+  }
+  .banner-ceo .content-banner-ceo {
+    padding: 60px 0;
+  }
+  .banner-ceo .ceo-img .img {
+    display: none;
+  }
+  .wrapper-serve .main-text .timeline-text:before {
+    display: none;
+  }
+  .grid-item,
+  .grid-sizer {
+    width: 33.33333%;
+    float: left;
+  }
+  .grid-item--width2 {
+    width: 66.66667%;
+  }
+  /*
+    ----------  3.2. Project Single  ----------
+    */
+  .wrapper-ap-title .main-text {
+    width: 50%;
+    display: inline-block;
+  }
+  .wrapper-ap-title .main-text:nth-child(2) {
+    width: 50%;
+  }
+  .wrapper-ap-title .main-text:nth-child(4),
+  .wrapper-ap-title .main-text:nth-child(5) {
+    width: 50%;
+  }
+  .wrapper-ap-title {
+    margin-bottom: 30px;
+  }
+  .wrapper-ap-text .title-text {
+    margin-bottom: 20px;
+  }
+  .wrapper-ap-text .text {
+    margin-bottom: 20px;
+  }
+  .wrapper-ap-title .main-text {
+    margin-bottom: 20px;
+  }
+  .wrapper-our-text .title {
+    margin-bottom: 15px;
+  }
+  .main-project-left {
+    margin-bottom: 20px;
+  }
+  .wrapper-our-text .wrapper-skill .title {
+    margin-bottom: 5px;
+  }
+  /*
+    ----------  Project  ----------
+    */
+  .section-our-project-03 .col-sm-6 {
+    width: 100%;
+  }
+  .section-our-project-03 .col-sm-6:nth-last-child(-n + 2).margin-bottom-mobile {
+    margin-bottom: 30px;
+  }
+  .section-our-project-03 .col-sm-6:nth-last-child(-n + 1).margin-bottom-mobile {
+    margin-bottom: 0;
+  }
+  .section-our-project-04 .col-sm-6 {
+    width: 100%;
+  }
+  .section-our-project-04 .col-sm-6:nth-last-child(-n + 2).margin-bottom-mobile {
+    margin-bottom: 30px;
+  }
+  .section-our-project-04 .col-sm-6:nth-last-child(-n + 1).margin-bottom-mobile {
+    margin-bottom: 0;
+  }
+  .portfolio-project-4 ul.nav-tabs > .port-item {
+    margin-top: 0;
+  }
+  .portfolio-project-4 ul.nav-tabs > .port-item.active {
+    margin-top: 0;
+  }
+  /*
+    ----------  3.3. Blog  ----------
+    */
+  .main-blog-right .number {
+    font-size: 40px;
+  }
+  .main-blog-right .number-text {
+    font-size: 20px;
+  }
+  .main-blog-right .title-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .main-blog-right .title {
+    margin-bottom: 5px;
+  }
+  .main-blog-right .title:before {
+    display: none;
+  }
+  .main-blog-right .title:before {
+    width: 70px;
+  }
+  .main-blog-right .content-text {
+    margin-bottom: 10px;
+  }
+  .main-blog-left-text .title {
+    font-size: 18px;
+  }
+  .main-blog-left-text .icon:before {
+    font-size: 70px;
+  }
+  .main-blog-left-text .text {
+    margin-bottom: 10px;
+  }
+  .main-blog-right .number {
+    padding-left: 0;
+  }
+  .main-blog-right .content-text .author {
+    display: block;
+  }
+  .main-blog-right .content-text .view {
+    display: block;
+  }
+  /*         ABOUT          */
+  .wrapper-banner-why {
+    padding: 60px 0;
+  }
+  .green-arrow-list .ga-list-item {
+    margin-bottom: 10px;
+  }
+  .wrapper-banner-why .why-title {
+    margin-bottom: 20px;
+  }
+  .wrapper-banner-why .why-text .text {
+    margin-bottom: 20px;
+  }
+  .content-about-done .done-title {
+    margin-bottom: 20px;
+  }
+  .achievement .title {
+    margin-bottom: 20px;
+  }
+  .achievement .text,
+  .achievement-dark .text,
+  .achievement-light .text {
+    margin-bottom: 20px;
+  }
+  .content-banner-map .left-text .number {
+    padding: 0 15px 15px 0;
+  }
+  /*     TEAM      */
+  .section-team ul .icon-tab {
+    padding: 8px 20px;
+  }
+  .section-team .tap-nav {
+    margin-bottom: 30px;
+  }
+  .wrapper-see-text .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .wrapper-see-text .text {
+    margin-bottom: 20px;
+  }
+  .wrapper-section-see {
+    padding: 60px 0;
+  }
+  .wrapper-see-logo .item {
+    margin-bottom: 15px;
+  }
+  .content-open .main-position {
+    margin-bottom: 30px;
+  }
+  .wrapper-text-excel .text-excel {
+    margin-bottom: 20px;
+  }
+  .wrapper-text-excel .link-text {
+    margin-bottom: 10px;
+  }
+  .wrapper-llc .llc-title {
+    margin-bottom: 15px;
+  }
+  .wrapper-llc .list-llc {
+    margin-bottom: 20px;
+  }
+  .main-blog-left-text .title {
+    margin-bottom: 10px;
+  }
+  .main-blog-left-text .text {
+    margin-bottom: 10px;
+  }
+  /*
+    ----------  section news  ----------
+    */
+  .news .date {
+    padding-left: 0;
+  }
+  .news .date:before {
+    display: none;
+  }
+  .news .date {
+    margin-bottom: 20px;
+  }
+  .news .meta-info span {
+    display: block;
+  }
+  /*
+    ----------  3.4. Contact  ----------
+    */
+  .box-contact {
+    padding: 15px;
+  }
+  .wrapper-places .main-title {
+    top: 0;
+  }
+  .wrapper-places .main-content {
+    padding-left: 30px;
+  }
+  .wrapper-places .main-content .subtitle:before {
+    display: none;
+  }
+  /*
+    ----------  3.5. Blog Detail  ----------
+    */
+  .sidebar {
+    padding-top: 50px;
+  }
+  .col-2 {
+    width: 100%;
+    padding: 0 !important;
+  }
+  .col-2 .widget:last-child {
+    margin-bottom: 30px;
+  }
+  .blog-detail-wrapper .blog-content .dates {
+    display: table-caption;
+  }
+  .blog-detail-wrapper .blog-content .content .text {
+    margin-bottom: 20px;
+  }
+  .blog-detail-wrapper blockquote {
+    margin: 25px 0;
+  }
+  .blog-detail-wrapper blockquote .icons {
+    display: none;
+  }
+  .blog-detail-wrapper blockquote .quote-wrapper {
+    padding-left: 0;
+  }
+  .blog-comment {
+    margin-top: 50px;
+  }
+  .tags {
+    margin-top: 30px;
+  }
+  .leave-comment .comment-form .col-50 {
+    width: 100%;
+  }
+  .leave-comment .comment-form .col-50 .form-control {
+    margin-bottom: 30px;
+  }
+  .leave-comment .comment-form .col-50 .form-control:last-child {
+    margin-bottom: 30px;
+  }
+  /*
+    =====  End of PAGE  ======
+    */
+  /*
+    ==============================
+    =           FOOTER           =
+    ==============================
+    */
+  .footer-main .title {
+    margin-bottom: 30px;
+  }
+  .footer-main-wrapper [class*=col-] {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .footer-main-wrapper [class*=col-]:nth-last-child(-n+2) {
+    margin-bottom: 30px;
+  }
+  .footer-main-wrapper [class*=col-]:last-child {
+    margin-bottom: 0;
+  }
+  /*
+    =====  home-bangking  ======
+    */
+  .service-banking .wp-box {
+    padding: 60px 0 60px 0;
+  }
+  .service-banking .wp-box .bg-homepage-banking .item-box {
+    margin-bottom: 120px;
+  }
+  .service-banking .wp-box .bg-homepage-banking .row-items .col-xs-6:last-child .item-box {
+    margin-bottom: 0;
+  }
+  .who.who-01 .title-wrapper.title-wrapper-main .subtitle:before {
+    bottom: 0;
+  }
+  .who.who-01 .author {
+    margin-top: -20px;
+  }
+  .team-01 .title-wrapper {
+    margin-bottom: 40px;
+  }
+  .about-us-1 {
+    padding-top: 0;
+  }
+  /*
+    =====  home-bangking  ======
+    */
+  .wp-box {
+    padding: 60px 0 80px 0;
+  }
+  .team-accountant-title .wp-box {
+    padding: 60px 0 60px 0;
+  }
+  .portfolio-accountant ul.nav-tabs > .port-item {
+    margin-top: 0;
+  }
+  .portfolio-accountant ul.nav-tabs > .port-item.active {
+    margin-top: 0;
+  }
+  .bg-footer-accountant .footer-main-wrapper {
+    margin-bottom: 60px;
+  }
+  /*
+    =====  home-consultant  ======
+    */
+  .who-consultant .content-wrapper .title {
+    margin-bottom: 20px;
+  }
+  .wrapper-text-consutant .content-text-consutant {
+    margin-bottom: 30px;
+  }
+  .wrapper-text-consutant .main-text .title {
+    margin: 10px 0;
+  }
+  .bg-footer-3 .footer-main-wrapper {
+    padding-bottom: 60px;
+  }
+  /*
+    =====  home-financial  ======
+    */
+  .content-header-planner {
+    margin-top: 0;
+  }
+  .content-header-planner .main-header-planner {
+    width: 100%;
+  }
+  /*
+    =====  home-investment  ======
+    */
+  .market-investment .chart-item-list > .chart-item {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .market-investment .chart-item-list > .chart-item:nth-child(-n + 1) {
+    margin-top: 0;
+  }
+  .service-investment .col-sm-6.service-item .title {
+    font-size: 18px;
+  }
+  .service-investment .col-sm-6.service-item .title .no {
+    font-size: 28px;
+  }
+  .market-investment .wp-box,
+  .service-investment .wp-box,
+  .work-investment .wp-box {
+    padding: 60px 0;
+  }
+  .work-investment .col-chart-invesment .wp-charst {
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  .work-investment .small-chart-wrapper {
+    margin-top: 45px;
+    min-height: 675px;
+  }
+  .work-investment .small-chart-wrapper .pie-chart-investment {
+    padding-right: 0;
+  }
+  .work-investment .small-chart-wrapper .pie-chart-investment .wp-charst {
+    padding-top: 15px;
+  }
+  .work-investment .small-chart-wrapper .line-chart-investment {
+    padding-left: 0;
+    margin-top: 15px;
+  }
+  .work-investment .small-chart-wrapper .line-chart-investment .wp-charst {
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  /*
+    =====  home-insurance  ======
+    */
+  .goahead-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .goahead-insurance .title-wrapper.title-wrapper-main .title {
+    left: 25px;
+  }
+  .goahead-insurance .title-wrapper.title-wrapper-main .subtitle:before {
+    bottom: 20px !important;
+  }
+  .service-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .testimonial-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .project-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .people-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .achievement-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .update-insurance .title-wrapper.title-wrapper-main .subtitle:before {
+    left: 25px;
+  }
+  .service-insurance .title-wrapper.title-wrapper-main .title,
+  .testimonial-insurance .title-wrapper.title-wrapper-main .title,
+  .project-insurance .title-wrapper.title-wrapper-main .title,
+  .people-insurance .title-wrapper.title-wrapper-main .title,
+  .achievement-insurance .title-wrapper.title-wrapper-main .title,
+  .update-insurance .title-wrapper.title-wrapper-main .title {
+    left: 40px;
+  }
+  .project-insurance .wp-box,
+  .people-insurance .wp-box,
+  .update-insurance .wp-box,
+  .service-insurance .wp-box {
+    padding: 60px 0;
+  }
+  .service-insurance .service-financial .service-02-intro {
+    margin-bottom: 40px !important;
+  }
+  .service-insurance .service-financial .col-xs-6 {
+    padding: 0;
+  }
+  .service-insurance .service-financial .col-xs-6:nth-last-child(-n + 1) .service-02-intro {
+    margin-bottom: 0 !important;
+  }
+  .project-insurance .wp-box {
+    padding-bottom: 0;
+  }
+  .project-insurance .portfolio ul.nav-tabs {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .project-insurance .portfolio ul.nav-tabs > .port-item {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  /*
+    =====  End of FOOTER  ======
+    */
+  /*       Project-2        */
+  /*       Project-3        */
+  .portfolio-project-3 .content-grid-accountant.item-width-1 {
+    width: 50%;
+  }
+  /*       Project-4        */
+  /*   CHART    */
+  .wp-charst {
+    padding: 0;
+  }
+  /*      Homepage Startup     */
+  .slider-startup .banner-05 .wp-select {
+    width: 250px;
+  }
+  .service-startup .col-xs-6 {
+    width: 100%;
+  }
+  .service-startup .content-accountant-service .main-accountant-service {
+    margin-bottom: 60px;
+  }
+  .service-startup .content-accountant-service .col-md-4:nth-last-child(-n + 3) .main-accountant-service {
+    margin-bottom: 60px;
+  }
+  .service-startup .content-accountant-service .col-md-4:nth-last-child(-n + 2) .main-accountant-service {
+    margin-bottom: 60px;
+  }
+  .service-startup .content-accountant-service .col-md-4:nth-last-child(-n + 1) .main-accountant-service {
+    margin-bottom: 0px;
+  }
+  .work-startup .grid-item {
+    width: 100%;
+  }
+  .work-startup .portfolio .grid .grid-item.grid-item--width2 {
+    width: 100%;
+  }
+  .bg-wp-footer {
+    margin-bottom: 60px;
+  }
+  .bg-wp-footer .about-us-1 .logo {
+    margin-bottom: 0;
+  }
+  .bg-wp-footer .footer-wp-text {
+    margin-bottom: 40px;
+  }
+  .bg-wp-footer .footer-main-wrapper {
+    margin-bottom: 50px;
+  }
+  .bg-footer-accountant {
+    margin-bottom: 0;
+  }
+  .bg-footer-banking {
+    margin-bottom: 0;
+  }
+  .bg-footer-banking .footer-wp-text {
+    margin-bottom: 0;
+  }
+}
+/*
+----------  1.5. Media screen max width 480px  ----------
+*/
+@media screen and (max-width: 480px) {
+  /*
+    ====================================
+    =            GLOBAL STYLE          =
+    ====================================
+    */
+  /*
+    ----------  0.2. Section Title  ----------
+    */
+  .title-wrapper .subtitle {
+    font-size: 3.57143rem;
+    letter-spacing: 4px;
+  }
+  .title-wrapper .title {
+    font-size: 1.42857rem;
+  }
+  /*
+    =====  End of GLOBAL STYLE  ======
+    */
+  /*
+    ==============================
+    =           SECTION          =
+    ==============================
+    */
+  /*
+    ----------  3.1 Homepage Banner  ----------
+    */
+  .homepage-01 .content-wrapper .subtitle,
+  .homepage-02 .content-wrapper .subtitle,
+  .homepage-03 .content-wrapper .subtitle,
+  .page-slider-home-1 .content-wrapper .subtitle {
+    font-size: 1.14286rem;
+  }
+  .homepage-01 .content-wrapper .title,
+  .homepage-02 .content-wrapper .title,
+  .homepage-03 .content-wrapper .title,
+  .page-slider-home-1 .content-wrapper .title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.85714rem;
+  }
+  .homepage-01 .content-wrapper .text,
+  .homepage-02 .content-wrapper .text,
+  .homepage-03 .content-wrapper .text,
+  .page-slider-home-1 .content-wrapper .text {
+    font-size: 1.07143rem;
+    margin-bottom: 20px;
+  }
+  .homepage-01 .content-wrapper .text,
+  .homepage-03 .content-wrapper .text {
+    width: 100%;
+  }
+  .page-title-wrapper .breadcrumb {
+    padding-right: 30px;
+  }
+  .news .meta-info span {
+    line-height: 27px;
+  }
+  .news .article-title {
+    line-height: 1.1;
+  }
+  .stats-02 .stat {
+    width: 100%;
+  }
+  .stats-02 .stat:nth-child(3) {
+    margin-bottom: 30px;
+  }
+  .stats-02 .stat-icon {
+    margin-bottom: 15px;
+  }
+  .stats-02 .title {
+    margin-bottom: 40px;
+  }
+  .newsletter .signup .name,
+  .newsletter .signup .email {
+    width: 100%;
+  }
+  .newsletter .signup .email {
+    margin-left: 0;
+  }
+  .wrapper-map-img #map {
+    height: 250px;
+  }
+  /*
+    =====  End of SECTION  ======
+    */
+  /*           INDEX           */
+  .finance-item .img-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .finance .finance-item {
+    margin-bottom: 30px;
+  }
+  .finance .col-xs-6:last-child .finance-item {
+    margin-bottom: 0;
+  }
+  .finance .col-xs-6:last-child .finance-item .img-wrapper {
+    margin-bottom: 30px;
+  }
+  .service .pull-right .col-xs-4 {
+    width: 100%;
+  }
+  .service .col-xs-4:last-child .service-intro:last-child {
+    margin-bottom: 0;
+  }
+  .service .service-intro {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .service .col-md-4 {
+    width: 100%;
+  }
+  .service .col-md-4 .service-intro {
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .service .col-md-4:nth-last-child(-n+2) .service-intro {
+    margin-bottom: 30px;
+  }
+  .service .col-md-4:last-child .service-intro {
+    margin-bottom: 0;
+  }
+  .service-02 .col-md-4 {
+    width: 100%;
+  }
+  .service-02 .col-md-4:nth-last-child(-n+2) .service-02-intro {
+    margin-bottom: 30px;
+  }
+  .service-02 .col-md-4:last-child .service-02-intro {
+    margin-bottom: 0;
+  }
+  .service-03 .col-md-4 {
+    width: 100%;
+  }
+  .service-03 .col-md-4:nth-last-child(-n+2) .service-03-intro {
+    margin-bottom: 30px;
+  }
+  .service-03 .col-md-4:last-child .service-03-intro {
+    margin-bottom: 0;
+  }
+  .stats-02 .title {
+    font-size: 24px;
+  }
+  .finance .author {
+    margin-left: 0;
+  }
+  .team .team-slider {
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .stats .count {
+    font-size: 2.8rem;
+  }
+  .portfolio .more h5,
+  .portfolio-alt .more h5 {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .portfolio .more h5 .checkme,
+  section.portfolio-alt .more h5 .checkme {
+    font-size: 15px;
+  }
+  .portfolio .more h5,
+  .portfolio-alt .more h5 {
+    margin: 30px 0;
+  }
+  .service-02 .col-xs-6 {
+    width: 100%;
+  }
+  .service-02 .col-xs-6:last-child .service-02-intro {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .service-02 .col-xs-6:last-child .service-02-intro:last-child {
+    margin-bottom: 0;
+  }
+  .stats .col-xs-3 {
+    width: 100%;
+  }
+  .stats .stat {
+    margin-bottom: 30px;
+  }
+  .stats .stat:last-child {
+    margin-bottom: 0;
+  }
+  .testimonial .content,
+  .testimonial-dark .content {
+    padding: 60px 0px 130px 20px;
+  }
+  .testimonial .slick-dots,
+  .testimonial-dark .slick-dots {
+    right: 10%;
+  }
+  .testimonial .testimonial-man,
+  .testimonial-dark .testimonial-man {
+    top: 77%;
+    right: 60%;
+  }
+  .w3-icon {
+    font-size: 100px;
+  }
+  .title-wrapper .subtitle {
+    line-height: 60px;
+  }
+  .title-wrapper.title-wrapper-main .subtitle {
+    line-height: 60px;
+  }
+  .title-wrapper .subtitle:before {
+    bottom: 0;
+  }
+  .testimonial .content:after,
+  .testimonial-dark .content:after {
+    display: none;
+  }
+  .portfolio .nav-tabs > .port-item:nth-child(4),
+  .portfolio-alt .nav-tabs > .port-item:nth-child(4),
+  .portfolio .nav-tabs > .port-item.active:nth-child(4),
+  .portfolio-alt .nav-tabs > .port-item.active:nth-child(4) {
+    margin-top: 0;
+  }
+  .service-03 .col-xs-4 {
+    width: 100%;
+  }
+  .service-03 .col-xs-4:last-child .service-03-intro:last-child {
+    margin-bottom: 0;
+  }
+  .service-03-intro:last-child {
+    margin-bottom: 30px;
+  }
+  /*           SERVICE           */
+  .content-our-service .col-xs-6 {
+    width: 100%;
+  }
+  .main-our-service {
+    margin-bottom: 30px;
+  }
+  .content-our-service .col-md-4:nth-child(4) .main-our-service,
+  .content-our-service .col-md-4:nth-child(5) .main-our-service {
+    margin-bottom: 30px;
+  }
+  .team .team-slider button {
+    top: 45%;
+  }
+  .team .slick-next {
+    right: -15px;
+  }
+  .team .slick-prev {
+    left: -15px;
+  }
+  .banner-ceo .content-banner-ceo {
+    padding: 60px 0;
+  }
+  .ceo {
+    padding-right: 20px;
+  }
+  .main-ceo-text {
+    display: block;
+  }
+  .main-ceo-text .icon {
+    display: none;
+  }
+  .wrapper-serve .main-text .text-number {
+    font-size: 50px;
+    width: 100%;
+  }
+  .w3-icon {
+    display: inherit;
+    top: 0;
+  }
+  .warpper-plan .col-xs-6 {
+    width: 100%;
+  }
+  .warpper-plan .content-plan {
+    margin-bottom: 10px;
+  }
+  .content-section-how .main-img {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .content-section-how .main-section-how {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+  /*      PROJECT    */
+  .wrapper-our-text .content-skill {
+    width: 50%;
+  }
+  .wrapper-our-text .wrapper-skill .title {
+    margin-bottom: 0;
+  }
+  .wrapper-gallery .content-gallery {
+    width: 100%;
+  }
+  .wrapper-gallery .inner {
+    right: 0;
+    bottom: 5px;
+  }
+  .page-title-wrapper .title {
+    font-size: 35px;
+  }
+  /*      404    */
+  .wrapper-404 .title {
+    font-size: 30px;
+  }
+  /*       BLOG       */
+  .content-blog .col-xs-6 {
+    width: 100%;
+  }
+  .main-blog-right .title:before {
+    left: 0;
+  }
+  .main-blog-left {
+    margin-bottom: 10px;
+  }
+  .main-blog-left-text {
+    margin-bottom: 10px;
+  }
+  .leave-comment .page-title {
+    margin-bottom: 30px;
+  }
+  .blog-comment .comment-list .comment-right .pull-right.time {
+    width: 100%;
+  }
+  .blog-detail-wrapper .blog-content .content-text {
+    white-space: inherit;
+  }
+  .blog-detail-wrapper .blog-content .content-text .author,
+  .blog-detail-wrapper .blog-content .content-text .view {
+    width: 100%;
+  }
+  .blog-comment .page-title {
+    margin-bottom: 30px;
+  }
+  .main-video .title {
+    padding-top: 20px;
+  }
+  /*     ABOUT       */
+  .wrapper-timeline .timeline-number {
+    font-size: 30px;
+  }
+  .wrapper-timeline .timeline-number {
+    padding: 10px 0;
+  }
+  .wrapper-timeline {
+    padding-left: 10px;
+  }
+  .wrapper-banner-why .why-icon .icon {
+    margin-right: 20px;
+  }
+  .content-about-done .col-xs-6 {
+    width: 100%;
+  }
+  .content-about-done .text:last-child {
+    margin-bottom: 20px;
+  }
+  .content-banner-map .left-text .timeline-text {
+    padding: 0 20px 30px 20px;
+  }
+  .content-banner-map .main-left .col-xs-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .content-banner-map .main-left .col-xs-6:last-child {
+    margin-bottom: 0;
+  }
+  .page-title {
+    font-size: 18px;
+  }
+  .timeline-text:before {
+    display: none;
+  }
+  .wrapper-timeline .content-timeline {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .wrapper-timeline .timeline-number {
+    position: relative;
+  }
+  .wrapper-timeline .timeline-number {
+    display: inline;
+  }
+  .wrapper-timeline .timeline-number {
+    padding: 0;
+  }
+  .wrapper-banner-why .why-icon {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .wrapper-banner-why .why-icon {
+    margin-bottom: 20px;
+  }
+  .wrapper-table .col-xs-6 {
+    width: 100%;
+  }
+  .content-table .main-table:last-child {
+    margin-bottom: 30px;
+  }
+  .wrapper-banner-why .wrapper-table .col-xs-6:last-child .content-table .main-table:last-child {
+    margin-bottom: 0;
+  }
+  /*     TEAM     */
+  .section-team ul .icon-tab {
+    padding: 8px 10px;
+  }
+  .wrapper-main-content .col-xs-6 {
+    width: 100%;
+  }
+  .wrapper-main-content .col-sm-6:nth-child(3) .main-content {
+    margin-bottom: 30px;
+  }
+  .content-open .list-info {
+    position: relative;
+    width: 100%;
+    height: 40px;
+  }
+  .content-open .list-item {
+    height: 100%;
+    width: 20%;
+    float: left;
+    border-bottom: 0;
+    border-right: 1px solid #fff;
+  }
+  .content-open .list-item:last-child {
+    border-right: 0;
+  }
+  .content-open .link {
+    width: 100%;
+  }
+  .wrapper-text-excel .text-excel {
+    font-size: 20px;
+  }
+  /*          CONTACT         */
+  .section-contact .col-md-4.col-xs-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .section-contact .col-md-4.col-xs-6.style-2 {
+    float: left;
+    margin-top: 0;
+  }
+  .section-contact .title-box-contact {
+    padding-top: 0;
+    margin-bottom: 15px;
+  }
+  .section-contact .title-box-contact:after {
+    display: none;
+  }
+  .section-contact .box-contact {
+    padding: 20px;
+  }
+  .wrapper-places {
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .wrapper-places:last-child {
+    padding-bottom: 0;
+  }
+  .wrapper-places .main-title {
+    top: 10px;
+    left: 50%;
+    margin-left: -60px;
+  }
+  .wrapper-places .main-content {
+    padding-left: 0;
+    text-align: center;
+  }
+  .wrapper-places .main-content .description-items {
+    text-align: center;
+  }
+  .wrapper-places.style-2 {
+    display: table;
+  }
+  /*          CONTACT         */
+  .blog-detail-wrapper .blog-content .dates .day {
+    font-size: 40px;
+  }
+  .blog-detail-wrapper .blog-content .content-text .author,
+  .blog-detail-wrapper .blog-content .content-text .view {
+    padding-right: 15px;
+  }
+  .blog-detail-wrapper .blog-detail-list li {
+    width: 100%;
+  }
+  .blog-detail-wrapper .video-thumnail-wrap {
+    margin: 0 0 30px 0;
+  }
+  .blog-author {
+    background-color: #f9f9f9;
+    margin-top: 50px;
+  }
+  .blog-author .media-left {
+    vertical-align: top;
+    padding: 20px;
+    width: auto;
+  }
+  .blog-author .media-right {
+    display: block;
+    width: 100%;
+    padding: 0 20px 20px 20px;
+  }
+  .blog-author .media-right:before {
+    display: none;
+  }
+  .blog-comment .comment-list .parent {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .blog-comment .comment-list .comment-list-children {
+    margin-left: 0;
+  }
+  .blog-comment .comment-list .comment-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .leave-comment {
+    margin-top: 50px;
+  }
+  .leave-comment .comment-form {
+    margin: 0;
+  }
+  .leave-comment .comment-form .col-50 {
+    width: 100%;
+    padding: 0 !important;
+  }
+  .leave-comment .comment-form .col-50:last-child {
+    margin-bottom: 0;
+  }
+  .leave-comment .comment-form .col-50 .form-control {
+    margin-bottom: 20px;
+  }
+  .leave-comment .comment-form .col-50 .form-control:last-child {
+    margin-bottom: 20px;
+  }
+  .leave-comment .comment-form .btn-submit {
+    margin-top: 0;
+  }
+  .sign-up .subscribe-email-wrapper .subscribe-email-right .form-subscribe-email .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .input-group {
+    display: block;
+  }
+  .input-group-btn {
+    text-align: center;
+  }
+  .wp-box .title-wrapper.title-wrapper-main .subtitle {
+    line-height: 60px;
+  }
+  /*
+    =====  home-accountant  ======
+    */
+  .content-accountant-service .col-xs-6 {
+    width: 100%;
+  }
+  .content-accountant-service .col-md-4:nth-last-child(-n + 2) .main-accountant-service {
+    margin-bottom: 80px;
+  }
+  .content-accountant-service .col-md-4:nth-last-child(-n + 1) .main-accountant-service {
+    margin-bottom: 0;
+  }
+  .portfolio-accountant ul.nav-tabs > .port-item {
+    margin-right: 20px;
+  }
+  .portfolio-accountant ul.nav-tabs > .port-item.active {
+    margin-right: 20px;
+  }
+  /*
+    =====  home-consultant  ======
+    */
+  .home-slider .banner-08 .btn-input {
+    margin-bottom: 10px;
+  }
+  .wrapper-text-consutant .col-xs-6 {
+    width: 100%;
+  }
+  .wrapper-text-consutant .col-md-4:nth-last-child(-n + 3) .content-text-consutant {
+    margin-bottom: 30px;
+  }
+  .wrapper-text-consutant .col-md-4:nth-last-child(-n + 1) .content-text-consutant {
+    margin-bottom: 0;
+  }
+  .who-consultant .content-wrapper .title {
+    font-size: 16px;
+  }
+  .wrapper-recent-work .col-xs-4 {
+    width: 100%;
+  }
+  .wrapper-recent-work .col-xs-4:last-child .main-recent-work {
+    margin-bottom: 0;
+  }
+  .wrapper-recent-work .main-recent-work {
+    margin-bottom: 30px;
+  }
+  /*
+    =====  home-financial  ======
+    */
+  .service-financial .col-md-4:nth-last-child(-n+2) .service-02-intro {
+    margin-bottom: 60px;
+  }
+  .service-financial .col-md-4:nth-last-child(-n+1) .service-02-intro {
+    margin-bottom: 0;
+  }
+  .wp-stats-financial .col-xs-6 {
+    width: 100%;
+  }
+  .wp-stats-financial .col-sm-6:nth-last-child(-n+2) .stat {
+    margin-bottom: 30px;
+  }
+  .wp-stats-financial .col-sm-6:nth-last-child(-n+1) .stat {
+    margin-bottom: 0;
+  }
+  .grid-financial .grid-sizer,
+  .grid-financial .grid-item {
+    width: 100%;
+  }
+  /*
+    =====  home-investment  ======
+    */
+  .service-investment.finance.finance-2 .service-list > .service-item {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .service-investment.finance.finance-2 .service-list > .service-item:nth-child(-n + 1) {
+    margin-top: 0;
+  }
+  .work-investment .small-chart-wrapper .pie-chart-investment {
+    padding-right: 0;
+  }
+  .work-investment .small-chart-wrapper .pie-chart-investment .wp-charst {
+    padding-left: 0;
+  }
+  .work-investment .small-chart-wrapper .pie-chart-investment svg {
+    margin-left: -10px;
+  }
+  .portfolio-investment .portfolio .more h5 {
+    margin: 0;
+    padding: 30px 0;
+  }
+  /*
+    =====  home-insurance  ======
+    */
+  .goahead-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .goahead-insurance .title-wrapper.title-wrapper-main .title {
+    left: 15px;
+  }
+  .goahead-insurance .title-wrapper.title-wrapper-main .subtitle:before {
+    bottom: 15px !important;
+  }
+  .service-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .testimonial-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .project-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .people-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .achievement-insurance .title-wrapper.title-wrapper-main .subtitle:before,
+  .update-insurance .title-wrapper.title-wrapper-main .subtitle:before {
+    left: 15px;
+    bottom: 15px;
+  }
+  .service-insurance .title-wrapper.title-wrapper-main .title,
+  .testimonial-insurance .title-wrapper.title-wrapper-main .title,
+  .project-insurance .title-wrapper.title-wrapper-main .title,
+  .people-insurance .title-wrapper.title-wrapper-main .title,
+  .achievement-insurance .title-wrapper.title-wrapper-main .title,
+  .update-insurance .title-wrapper.title-wrapper-main .title {
+    left: 30px;
+  }
+  .testimonial-insurance.testimonial .content {
+    padding-bottom: 100px;
+  }
+  .project-insurance .grid-accountant .inner {
+    left: 2px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+  }
+  .project-insurance .portfolio-project-5 .grid-project-5 {
+    margin: 2px -2px;
+  }
+  .project-insurance .portfolio .more h5 {
+    margin: 0;
+    padding: 30px 0;
+  }
+  .project-insurance .portfolio ul.nav-tabs > li.port-item.active {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .who.works-insurance .title-wrapper.title-wrapper-main .subtitle:before {
+    left: 15px;
+    bottom: 15px;
+  }
+  .who.works-insurance .title-wrapper.title-wrapper-main .title {
+    left: 15px;
+  }
+  /*     Project-3       */
+  .portfolio-project-3 ul.nav-tabs > li.port-item.active:last-child {
+    margin-top: 0;
+  }
+  .portfolio-project-3 ul.nav-tabs > li.port-item:last-child {
+    margin-top: 0;
+  }
+  .portfolio-project-3 .content-grid-accountant .inner {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    right: 4px;
+  }
+  .portfolio-project-3 .content-grid-accountant.item-width-1 {
+    width: 50%;
+  }
+  .testimonial .name,
+  .testimonial-dark .name,
+  .testimonial .company,
+  .testimonial-dark .company {
+    margin-right: 20px;
+  }
+  /*   CHART    */
+  #stack-bar-chart svg {
+    width: 300px;
+  }
+  #group-bar-chart svg {
+    width: 300px;
+  }
+  #pie-chart svg {
+    width: 300px;
+  }
+  #donut-pie-chart svg {
+    width: 300px;
+  }
+  /* Homepage startup*/
+  .news-startup .main-blog-right .number {
+    padding-left: 0px;
+    font-size: 4.28571rem;
+  }
+  .news-startup .main-blog-right .number-text {
+    font-size: 1.71429rem;
+  }
+  .news-startup .main-blog-right .title {
+    color: #b1b1b1;
+  }
+  .slider-startup .banner-05 .wp-select {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .service-startup .content-accountant-service .main-accountant-service {
+    margin-bottom: 60px;
+  }
+  .service-startup .content-accountant-service .col-md-4:nth-last-child(-n + 3) .main-accountant-service {
+    margin-bottom: 60px;
+  }
+  .service-startup .content-accountant-service .col-md-4:nth-last-child(-n + 2) .main-accountant-service {
+    margin-bottom: 60px;
+  }
+  .service-startup .content-accountant-service .col-md-4:nth-last-child(-n + 1) .main-accountant-service {
+    margin-bottom: 0px;
+  }
+  /* Project*/
+  .grid-project-1 .grid-sizer,
+  .grid-project-1 .grid-item {
+    width: 100%;
+  }
+  .portfolio-project-4 .more h5 {
+    margin-top: 0;
+  }
+  .portfolio-project-5 .grid-item--width-40 {
+    width: 100%;
+  }
+  .portfolio-project-5 .grid-item-project-5 {
+    width: 50%;
+  }
+  /*     home-investment   */
+  .service-investment .col-sm-6.col-xs-6.service-item {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .service-investment .col-sm-6.col-xs-6.service-item:nth-child(-n + 1) {
+    margin-top: 0;
+  }
+  .accordion .panel .panel-title a {
+    padding-right: 40px;
+  }
+  .page-slider-home-1 .sl-banner-05 .wp-select {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .page-slider-home-1 .sl-banner-05 .btn-banner05 {
+    margin-top: 0;
+  }
+}
+/*
+----------  1.5. Media screen max width 414px  ----------
+*/
+/*
+----------  1.6. Media screen max width 380px  ----------
+*/
+@media screen and (max-width: 380px) {
+  /*
+    ==============================
+    =           HEADER           =
+    ==============================
+    */
+  .header-topbar .btn-wrapper .button {
+    width: 125px;
+  }
+  /*
+    =====  End of HEADER  ======
+    */
+  /*
+    ====================================
+    =            GLOBAL STYLE          =
+    ====================================
+    */
+  /*
+    ----------  0.2. Section Title  ----------
+    */
+  .title-wrapper .subtitle {
+    font-size: 2.71429rem;
+    letter-spacing: 2px;
+  }
+  .title-wrapper .title {
+    font-size: 1.28571rem;
+  }
+  /*
+    =====  End of GLOBAL STYLE  ======
+    */
+  /*
+    ----------  3.1 Homepage Banner  ----------
+    */
+  .homepage-01 .content-wrapper .subtitle,
+  .homepage-02 .content-wrapper .subtitle,
+  .homepage-03 .content-wrapper .subtitle {
+    font-size: 1.07143rem;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  .homepage-01 .content-wrapper .title,
+  .homepage-02 .content-wrapper .title,
+  .homepage-03 .content-wrapper .title {
+    margin-top: 5px;
+    font-size: 24px;
+  }
+  .homepage-01 .content-wrapper .text,
+  .homepage-02 .content-wrapper .text,
+  .homepage-03 .content-wrapper .text {
+    font-size: 14px;
+  }
+  .homepage-01 .content-wrapper .button,
+  .homepage-02 .content-wrapper .button,
+  .homepage-03 .content-wrapper .button {
+    width: 120px;
+  }
+  /*
+    ==============================
+    =           SECTION          =
+    ==============================
+    */
+  /*
+    =====  End of SECTION  ======
+    */
+  /*       Project-2        */
+  /*     Project-3       */
+  .section-our-project-03 .margin-bottom-mobile {
+    margin-bottom: 20px;
+  }
+  .section-our-project-03 .wp-img {
+    margin-bottom: 20px;
+  }
+  .portfolio-project-3 ul.nav-tabs > li.port-item {
+    margin-right: 0px;
+  }
+  .portfolio-project-3 ul.nav-tabs > li.port-item.active {
+    margin-right: 0px;
+  }
+  .portfolio-project-3 ul.nav-tabs > li.port-item.active:last-child {
+    margin-top: 0;
+  }
+  .portfolio-project-3 ul.nav-tabs > li.port-item:last-child {
+    margin-top: 0;
+  }
+  .portfolio-project-3 .content-grid-accountant .inner {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    right: 4px;
+  }
+  .portfolio-project-3 .content-grid-accountant.item-width-1 {
+    width: 50%;
+  }
+  /*     Project-4       */
+  .portfolio-project-4 ul.nav-tabs > li.port-item:last-child {
+    margin-top: 0;
+  }
+  .portfolio-project-4 ul.nav-tabs > li.port-item:last-child.active {
+    margin-top: 0;
+  }
+  /*   CHART    */
+  .wp-charst {
+    padding: 0;
+  }
+  .main-video .title {
+    padding-top: 0;
+  }
+}
+/*
+----------  1.7. Media screen max width 320px  ----------
+*/
+@media screen and (max-width: 320px) {
+  /*       SERVICE     */
+  .wrapper-serve .main-text .wp-text {
+    padding-left: 10px;
+  }
+  /*       404     */
+  .wraper-btn .btn-main {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .wrapper-404 .title {
+    padding-top: 70px;
+    padding-bottom: 20px;
+  }
+  .pagination-wrapper li:last-child .pagi-link,
+  .pagination-wrapper li:first-child .pagi-link {
+    padding: 9px;
+  }
+  .portfolio .nav-tabs > .port-item,
+  .portfolio-alt .nav-tabs > .port-item,
+  .portfolio .nav-tabs > .port-item.active,
+  .portfolio-alt .nav-tabs > .port-item.active {
+    margin: 25px 10px 25px 0;
+  }
+  .portfolio ul.nav-tabs > li.port-item,
+  .portfolio-alt ul.nav-tabs > li.port-item,
+  .portfolio ul.nav-tabs > li.port-item.active,
+  .portfolio-alt ul.nav-tabs > li.port-item.active {
+    margin: 25px 10px 25px 0;
+  }
+  .who-alt .btn-dark {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .who-banner .content-wrapper .btn-main {
+    margin-bottom: 20px;
+  }
+  .warpper-plan .col-xs-6 {
+    width: 97%;
+  }
+  .warpper-plan .content-plan {
+    margin: 0 5px 10px 5px;
+  }
+  /*
+    ----------  home-banking  ----------
+    */
+  .who.who-01 .author {
+    display: none;
+  }
+  /*
+    ----------  home-account  ----------
+    */
+  .portfolio-accountant ul.nav-tabs > li.port-item {
+    margin-right: 20px;
+    margin-top: 0;
+  }
+  .portfolio-accountant ul.nav-tabs > li.port-item.active {
+    margin-right: 20px;
+    margin-top: 0;
+  }
+  /*       Project-2        */
+  /*       Project-3        */
+  .section-our-project-03 .margin-bottom-mobile {
+    margin-bottom: 20px;
+  }
+  .portfolio-project-3 .page-title {
+    margin-bottom: 20px;
+  }
+  .portfolio-project-3 ul.nav-tabs > li.port-item {
+    margin-right: 0px;
+  }
+  .portfolio-project-3 ul.nav-tabs > li.port-item.active {
+    margin-right: 0px;
+  }
+  .portfolio-project-3 ul.nav-tabs > li.port-item.active:last-child {
+    margin-top: 0;
+  }
+  .portfolio-project-3 .content-grid-accountant .inner {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    right: 4px;
+  }
+  .portfolio-project-3 .content-grid-accountant.item-width-1 {
+    width: 50%;
+  }
+  /*       Project-4        */
+  .portfolio-project-4 ul.nav-tabs > li.port-item:last-child {
+    margin-top: 0;
+  }
+  .portfolio-project-4 ul.nav-tabs > li.port-item:last-child.active {
+    margin-top: 0;
+  }
+  /*   CHART    */
+  #stack-bar-chart svg {
+    width: 200px;
+  }
+  #group-bar-chart svg {
+    width: 200px;
+  }
+  #pie-chart svg {
+    width: 200px;
+  }
+  #donut-pie-chart svg {
+    width: 200px;
+  }
+  /*
+    ----------  home-insurance  ----------
+    */
+  .goahead-insurance .slider-sm {
+    margin-top: 20px;
+  }
+  /*     Project       */
+  .portfolio-project-4 ul.nav-tabs > li.port-item {
+    margin-top: 0;
+  }
+  .portfolio-project-4 ul.nav-tabs > li.port-item.active {
+    margin-top: 0;
+  }
+  .page-slider-home-1 .banner-01 .btn-main,
+  .page-slider-home-1 .banner-02 .btn-main,
+  .page-slider-home-1 .banner-03 .btn-main,
+  .page-slider-home-1 .banner-06 .btn-main,
+  .page-slider-home-1 .banner-07 .btn-main {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .video-thumbnail {
+    height: 250px;
+  }
+  .video-thumbnail .img-responsive {
+    height: 100%;
+  }
+}
+/*
+----------  1.7. Media screen min width 1600  ----------
+*/
+@media screen and (min-width: 1600px) {
+  /*
+    ==============================
+    =           SECTION          =
+    ==============================
+    */
+  .wrapper-banner-why {
+    position: relative;
+  }
+  .wrapper-banner-why .wrapper-img {
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+    z-index: 1;
+    max-width: 35%;
+    display: block;
+  }
+  .who.who-banner {
+    background-position: 100% 0;
+  }
+  .who.works-insurance {
+    background-position: center left 0;
+  }
+  .homepage-01 .content-wrapper .subtitle,
+  .homepage-02 .content-wrapper .subtitle,
+  .homepage-03 .content-wrapper .subtitle {
+    font-size: 24px;
+  }
+  .homepage-01 .content-wrapper .title,
+  .homepage-02 .content-wrapper .title,
+  .homepage-03 .content-wrapper .title {
+    font-size: 60px;
+  }
+  /*
+----------  SERVICE-BLOCK   ----------
+*/
+  .service-block-2 .piggy-man {
+    max-width: 19%;
+  }
+  .stats-banking .stats-man {
+    max-width: 15%;
+    left: 1%;
+  }
+  /*
+    =====  End of SECTION  ======
+    */
+}
+/*
+----------  1.7. Media screen min width 768px  ----------
+*/
+@media screen and (min-width: 768px) {
+  .newsletter .banner-right {
+    padding-left: 8.33333333%;
+  }
+}
+/*
+=====  End of RESPONSIVE SCREEN  ======
+*/
