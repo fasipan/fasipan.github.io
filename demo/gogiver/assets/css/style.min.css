@@ -7170,4 +7170,9 @@ blockquote cite:before {
     left: 31px;
     width: 255px;
     top: 50px;
+    z-index: 99;
+}
+.inbox-fixed{
+    bottom: 480px;
+    top: initial;
 }
